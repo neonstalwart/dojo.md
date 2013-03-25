@@ -9,7 +9,7 @@ If one argument is passed, returns the value of the cookie
 For two or more arguments, acts as a setter.
 ## Examples
 
-* set a cookie with the JSON-serialized contents of an object which
+set a cookie with the JSON-serialized contents of an object which
 will expire 5 days from now:
 
       require(["dojo/cookie", "dojo/json"], function(cookie, json){
@@ -17,20 +17,24 @@ will expire 5 days from now:
       });
 
 
-* de-serialize a cookie back into a JavaScript object:
+
+---
+
+de-serialize a cookie back into a JavaScript object:
 
       require(["dojo/cookie", "dojo/json"], function(cookie, json){
         config = json.parse(cookie("configObj"));
       });
 
 
-* delete a cookie:
+
+---
+
+delete a cookie:
 
       require(["dojo/cookie"], function(cookie){
         cookie("configObj", null, {expires: -1});
       });
-
-
 ## Methods
 
 ### isSupported

@@ -8,22 +8,23 @@ and creates a new Color instance to work from.
 
 ## Examples
 
-* Work with a Color instance:
+Work with a Color instance:
 
      var c = new Color();
      c.setColor([0,0,0]); // black
      var hex = c.toHex(); // #000000
 
 
-* Work with a node's color:
+
+---
+
+Work with a node's color:
 
      var color = dojo.style("someNode", "backgroundColor");
      var n = new Color(color);
      // adjust the color some
      n.r *= .5;
      console.log(n.toString()); // rgb(128, 255, 255);
-
-
 ## Properties
 
 ### named

@@ -11,7 +11,7 @@ Deprecated, will be removed in 2.0.
 
 ## Examples
 
-* Create a small list of widgets:
+Create a small list of widgets:
 
       require(["dijit/WidgetSet", "dijit/registry"],
         function(WidgetSet, registry){
@@ -21,8 +21,6 @@ Deprecated, will be removed in 2.0.
         // destroy both:
         ws.forEach(function(w){ w.destroy(); });
       });
-
-
 ## Properties
 
 ### declaredClass

@@ -17,13 +17,11 @@ Specify this in extraPlugins (or plugins) parameter and also set
 height to "".
 ## Examples
 
-*       <script type="dojo/require">
+      <script type="dojo/require">
         AlwaysShowToolbar: "dijit/_editor/plugins/AlwaysShowToolbar"
       </script>
       <div data-dojo-type="dijit/Editor" height=""
           data-dojo-props="extraPlugins: [AlwaysShowToolbar]">
-
-
 ## Properties
 
 ### button

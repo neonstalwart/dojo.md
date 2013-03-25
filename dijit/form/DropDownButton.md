@@ -10,16 +10,17 @@ A button with a drop down
 
 ## Examples
 
-*       <button data-dojo-type="dijit/form/DropDownButton">
+      <button data-dojo-type="dijit/form/DropDownButton">
         Hello world
         <div data-dojo-type="dijit/Menu">...</div>
       </button>
 
 
-*       var button1 = new DropDownButton({ label: "hi", dropDown: new dijit.Menu(...) });
+
+---
+
+      var button1 = new DropDownButton({ label: "hi", dropDown: new dijit.Menu(...) });
       win.body().appendChild(button1);
-
-
 
 
 ## Properties

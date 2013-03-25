@@ -15,11 +15,9 @@ the same.
 Additional methods include `forEach`, `filter` and `map`.
 ## Examples
 
-* Query a store and iterate over the results.
+Query a store and iterate over the results.
 
 
       store.query({ prime: true }).forEach(function(item){
         //  do something
       });
-
-

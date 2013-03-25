@@ -14,13 +14,14 @@ Can be used standalone, or as a popup.
 
 ## Examples
 
-*       <div data-dojo-type="dijit/ColorPalette"></div>
+      <div data-dojo-type="dijit/ColorPalette"></div>
 
 
-*       var picker = new dijit.ColorPalette({ },srcNode);
+
+---
+
+      var picker = new dijit.ColorPalette({ },srcNode);
       picker.startup();
-
-
 ## Properties
 
 ### active

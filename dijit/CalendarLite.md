@@ -21,12 +21,13 @@ so that they are serializable and locale-independent.
 Also note that this widget isn't keyboard accessible; use dijit.Calendar for that
 ## Examples
 
-*       var calendar = new dijit.CalendarLite({}, dojo.byId("calendarNode"));
+      var calendar = new dijit.CalendarLite({}, dojo.byId("calendarNode"));
 
 
-*       <div data-dojo-type="dijit/CalendarLite"></div>
 
+---
 
+      <div data-dojo-type="dijit/CalendarLite"></div>
 ## Properties
 
 ### attachScope

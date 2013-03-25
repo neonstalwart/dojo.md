@@ -50,7 +50,7 @@ For example:
 
 ## Examples
 
-* add an onclick handler to every submit button in the document
+add an onclick handler to every submit button in the document
 which causes the form to be sent via Ajax instead:
 
       require(["dojo/query"], function(query){
@@ -69,8 +69,6 @@ which causes the form to be sent via Ajax instead:
           });
         });
       });
-
-
 
 
 ## Methods

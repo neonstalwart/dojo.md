@@ -12,7 +12,7 @@ at an unique absolute module identifier as given by the package configuration. I
 as a module allows for specifying unique, per-instance configurations.
 ## Examples
 
-* Create a second instance of dojo with a different, instance-unique configuration (assume the loader and
+Create a second instance of dojo with a different, instance-unique configuration (assume the loader and
 dojo.js are already loaded).
 
       // specify a configuration that creates a new instance of dojo at the absolute module identifier "myDojo"
@@ -34,8 +34,6 @@ dojo.js are already loaded).
         // dojo is the new instance of dojo
         // use as required
       });
-
-
 ## Properties
 
 ### addOnLoad

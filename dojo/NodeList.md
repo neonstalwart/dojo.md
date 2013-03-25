@@ -16,16 +16,22 @@ full power of Dojo available for DOM manipulation tasks in a
 simple, chainable way.
 ## Examples
 
-* create a node list from a node
+create a node list from a node
 
       new query.NodeList(dojo.byId("foo"));
-* get a NodeList from a CSS query and iterate on it
+
+---
+
+get a NodeList from a CSS query and iterate on it
 
       var l = dojo.query(".thinger");
       l.forEach(function(node, index, nodeList){
         console.log(index, node.innerHTML);
       });
-* use native and Dojo-provided array methods to manipulate a
+
+---
+
+use native and Dojo-provided array methods to manipulate a
 NodeList without needing to use dojo.* functions explicitly:
 
       var l = dojo.query(".thinger");
@@ -44,7 +50,10 @@ NodeList without needing to use dojo.* functions explicitly:
       // function to get specific items wrapped in a new NodeList:
       var node = l[3]; // the 4th element
       var newList = l.at(1, 3); // the 2nd and 4th elements
-* the style functions you expect are all there too:
+
+---
+
+the style functions you expect are all there too:
 
       // style() as a getter...
       var borders = dojo.query(".thinger").style("border");
@@ -54,14 +63,20 @@ NodeList without needing to use dojo.* functions explicitly:
       dojo.query("li:nth-child(even)").addClass("even");
       // even getting the coordinates of all the items
       var coords = dojo.query(".thinger").coords();
-* DOM manipulation functions from the dojo.* namespace area also available:
+
+---
+
+DOM manipulation functions from the dojo.* namespace area also available:
 
       // remove all of the elements in the list from their
       // parents (akin to "deleting" them from the document)
       dojo.query(".thinger").orphan();
       // place all elements in the list at the front of #foo
       dojo.query(".thinger").place("foo", "first");
-* Event handling couldn't be easier. `dojo.connect` is mapped in,
+
+---
+
+Event handling couldn't be easier. `dojo.connect` is mapped in,
 and shortcut handlers are provided for most DOM events:
 
       // like dojo.connect(), but with implicit scope
@@ -73,15 +88,16 @@ and shortcut handlers are provided for most DOM events:
       dojo.query("p")
         .onmouseenter(toggleHovered)
         .onmouseleave(toggleHovered);
-* chainability is a key advantage of NodeLists:
+
+---
+
+chainability is a key advantage of NodeLists:
 
       dojo.query(".thinger")
         .onclick(function(e){ /* ... */ })
         .at(1, 3, 8) // get a subset
           .style("padding", "5px")
           .forEach(console.log);
-
-
 ## Properties
 
 ### events

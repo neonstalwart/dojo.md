@@ -9,21 +9,27 @@ When called in a non-browser environment, just checks that all requested modules
 evaluated.
 ## Examples
 
-* Simple DOM and Modules ready syntax
+Simple DOM and Modules ready syntax
 
       require(["dojo/ready"], function(ready){
         ready(function(){ alert("Dom ready!"); });
       });
 
 
-* Using a priority
+
+---
+
+Using a priority
 
       require(["dojo/ready"], function(ready){
         ready(2, function(){ alert("low priority ready!"); })
       });
 
 
-* Using context
+
+---
+
+Using context
 
       require(["dojo/ready"], function(ready){
         ready(foo, function(){
@@ -32,11 +38,12 @@ evaluated.
       });
 
 
-* Using dojo/hitch style args:
+
+---
+
+Using dojo/hitch style args:
 
       require(["dojo/ready"], function(ready){
         var foo = { dojoReady: function(){ console.warn(this, "dojo dom and modules ready."); } };
         ready(foo, "dojoReady");
       });
-
-

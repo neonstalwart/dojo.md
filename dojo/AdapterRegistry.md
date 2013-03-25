@@ -11,7 +11,7 @@ result of a set of checked arguments is. All check/wrap functions
 in this registry should be of the same arity.
 ## Examples
 
-*       // create a new registry
+      // create a new registry
       var reg = new dojo.AdapterRegistry();
       reg.register("handleString",
         dojo.isString,
@@ -30,8 +30,6 @@ in this registry should be of the same arity.
       // the value we pass will get handled by the right function
       reg.match("someValue"); // will call the first function
       reg.match(["someValue"]); // will call the second
-
-
 ## Properties
 
 ### pairs

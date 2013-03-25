@@ -89,7 +89,7 @@ from the original by calling `dojo.query(node)` or
 
 ## Examples
 
-* search the entire document for elements with the class "foo":
+search the entire document for elements with the class "foo":
 
       dojo.query(".foo");
 
@@ -98,7 +98,10 @@ these elements will match:
       <span class="foo"></span>
       <span class="foo bar"></span>
       <p class="thud foo"></p>
-* search the entire document for elements with the classes "foo" *and* "bar":
+
+---
+
+search the entire document for elements with the classes "foo" *and* "bar":
 
       dojo.query(".foo.bar");
 
@@ -110,7 +113,10 @@ while these will not:
 
       <span class="foo"></span>
       <p class="thud foo"></p>
-* find `<span>` elements which are descendants of paragraphs and
+
+---
+
+find `<span>` elements which are descendants of paragraphs and
 which have a "highlighted" class:
 
       dojo.query("p span.highlighted");
@@ -122,16 +128,25 @@ the innermost span in this fragment matches:
           <span class="highlighted foo bar">...</span>
         </span>
       </p>
-* set an "odd" class on all odd table rows inside of the table
+
+---
+
+set an "odd" class on all odd table rows inside of the table
 `#tabular_data`, using the `>` (direct child) selector to avoid
 affecting any nested tables:
 
       dojo.query("#tabular_data > tbody > tr:nth-child(odd)").addClass("odd");
-* remove all elements with the class "error" from the document
+
+---
+
+remove all elements with the class "error" from the document
 and store them in a list:
 
       var errors = dojo.query(".error").orphan();
-* add an onclick handler to every submit button in the document
+
+---
+
+add an onclick handler to every submit button in the document
 which causes the form to be sent via Ajax instead:
 
       dojo.query("input[type='submit']").onclick(function(e){
@@ -148,8 +163,6 @@ which causes the form to be sent via Ajax instead:
           }
         });
       });
-
-
 ## Methods
 
 ### filter

@@ -12,30 +12,40 @@ was called in a touch.press event listener.
 
 ## Examples
 
-* Used with dojo.on
+Used with dojo.on
 
       define(["dojo/on", "dojo/touch"], function(on, touch){
         on(node, touch.press, function(e){});
         on(node, touch.move, function(e){});
         on(node, touch.release, function(e){});
         on(node, touch.cancel, function(e){});
-* Used with touch.* directly
+
+---
+
+Used with touch.* directly
 
       touch.press(node, function(e){});
       touch.move(node, function(e){});
       touch.release(node, function(e){});
       touch.cancel(node, function(e){});
-* Have dojo/touch generate clicks without delay, with a default move threshold of 4 pixels
+
+---
+
+Have dojo/touch generate clicks without delay, with a default move threshold of 4 pixels
 
       node.dojoClick = true;
-* Have dojo/touch generate clicks without delay, with a move threshold of 10 pixels horizontally and vertically
+
+---
+
+Have dojo/touch generate clicks without delay, with a move threshold of 10 pixels horizontally and vertically
 
       node.dojoClick = 10;
-* Have dojo/touch generate clicks without delay, with a move threshold of 50 pixels horizontally and 10 pixels vertically
+
+---
+
+Have dojo/touch generate clicks without delay, with a move threshold of 50 pixels horizontally and 10 pixels vertically
 
       node.dojoClick = {x:50, y:5};
-
-
 ## Methods
 
 ### cancel

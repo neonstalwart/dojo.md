@@ -9,10 +9,11 @@
 A validating, serializable, range-bound date text box with a drop down calendar
 ## Examples
 
-*       new DateTextBox({value: new Date(2009, 0, 20)})
-*       <input data-dojo-type='dijit/form/DateTextBox' value='2009-01-20'>
+      new DateTextBox({value: new Date(2009, 0, 20)})
 
+---
 
+      <input data-dojo-type='dijit/form/DateTextBox' value='2009-01-20'>
 ## Properties
 
 ### active

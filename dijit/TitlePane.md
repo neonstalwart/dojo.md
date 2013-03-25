@@ -16,21 +16,25 @@ section that slides open and closed. TitlePane is an extension to
 
 ## Examples
 
-*       // load a TitlePane from remote file:
+      // load a TitlePane from remote file:
       var foo = new dijit.TitlePane({ href: "foobar.html", title:"Title" });
       foo.startup();
 
 
-*       <!-- markup href example: -->
+
+---
+
+      <!-- markup href example: -->
       <div data-dojo-type="dijit/TitlePane" data-dojo-props="href: 'foobar.html', title: 'Title'"></div>
 
 
-*       <!-- markup with inline data -->
+
+---
+
+      <!-- markup with inline data -->
       <div data-dojo-type="dijit/TitlePane" title="Title">
         <p>I am content</p>
       </div>
-
-
 ## Properties
 
 ### active

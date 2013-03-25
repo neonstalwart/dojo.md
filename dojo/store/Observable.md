@@ -12,7 +12,7 @@ is performed.
 
 ## Examples
 
-* Create a Memory store that returns an observable query, and then log some
+Create a Memory store that returns an observable query, and then log some
 information about that query.
 
 
@@ -32,5 +32,3 @@ information about that query.
 
 
 See the Observable tests for more information.
-
-

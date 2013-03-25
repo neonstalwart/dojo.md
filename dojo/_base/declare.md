@@ -73,7 +73,7 @@ return any value: any returned value will be discarded.
 
 ## Examples
 
-*       declare("my.classes.bar", my.classes.foo, {
+      declare("my.classes.bar", my.classes.foo, {
         // properties to be added to the class prototype
         someValue: 2,
         // initialization function
@@ -87,7 +87,10 @@ return any value: any returned value will be discarded.
       });
 
 
-*       var MyBase = declare(null, {
+
+---
+
+      var MyBase = declare(null, {
         // constructor, properties, and methods go here
         // ...
       });
@@ -105,7 +108,10 @@ return any value: any returned value will be discarded.
       });
 
 
-*       var F = function(){ console.log("raw constructor"); };
+
+---
+
+      var F = function(){ console.log("raw constructor"); };
       F.prototype.method = function(){
         console.log("raw method");
       };
@@ -128,7 +134,10 @@ return any value: any returned value will be discarded.
       // ...back in A
 
 
-*       var A = declare(null, {
+
+---
+
+      var A = declare(null, {
         "-chains-": {
           destroy: "before"
         }
@@ -157,7 +166,10 @@ return any value: any returned value will be discarded.
       // B.destroy
 
 
-*       var A = declare(null, {
+
+---
+
+      var A = declare(null, {
         "-chains-": {
           constructor: "manual"
         }
@@ -172,7 +184,10 @@ return any value: any returned value will be discarded.
       });
 
 
-*       var A = declare(null, {
+
+---
+
+      var A = declare(null, {
         "-chains-": {
           m1: "before"
         },
@@ -203,8 +218,6 @@ return any value: any returned value will be discarded.
       // prints:
       // A.m2
       // B.m2
-
-
 ## Methods
 
 ### safeMixin

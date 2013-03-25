@@ -6,7 +6,7 @@ This module provide mouse event handling utility functions and exports
 mouseenter and mouseleave event emulation.
 ## Examples
 
-* To use these events, you register a mouseenter like this:
+To use these events, you register a mouseenter like this:
 
       define(["dojo/on", dojo/mouse"], function(on, mouse){
         on(targetNode, mouse.enter, function(event){
@@ -15,8 +15,6 @@ mouseenter and mouseleave event emulation.
         on(targetNode, mouse.leave, function(event){
           dojo.removeClass(targetNode, "highlighted");
         });
-
-
 ## Properties
 
 ### enter

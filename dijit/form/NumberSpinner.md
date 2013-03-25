@@ -17,9 +17,7 @@ accelerate.
 
 ## Examples
 
-*      new NumberSpinner({ constraints:{ max:300, min:100 }}, "someInput");
-
-
+     new NumberSpinner({ constraints:{ max:300, min:100 }}, "someInput");
 ## Properties
 
 ### active

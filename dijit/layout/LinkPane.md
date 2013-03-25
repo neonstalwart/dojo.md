@@ -15,9 +15,7 @@ to an anchor.  The anchor's body (the words between `<a>` and `</a>`)
 become the title of the widget (used for TabContainer, AccordionContainer, etc.)
 ## Examples
 
-*      <a href="foo.html">my title</a>
-
-
+     <a href="foo.html">my title</a>
 ## Properties
 
 ### attachScope

@@ -19,7 +19,7 @@ the URL contents, only modules on the same domain of the page can use this capab
 The build system can inline the cache values though, to allow for xdomain hosting.
 ## Examples
 
-* To ask dojo.cache to fetch content and store it in the cache (the dojo["cache"] style
+To ask dojo.cache to fetch content and store it in the cache (the dojo["cache"] style
 of call is used to avoid an issue with the build system erroneously trying to intern
 this example. To get the build system to intern your dojo.cache calls, use the
 "dojo.cache" style of call):
@@ -27,7 +27,10 @@ this example. To get the build system to intern your dojo.cache calls, use the
      //If template.html contains "<h1>Hello</h1>" that will be
      //the value for the text variable.
      var text = dojo["cache"]("my.module", "template.html");
-* To ask dojo.cache to fetch content and store it in the cache, and sanitize the input
+
+---
+
+To ask dojo.cache to fetch content and store it in the cache, and sanitize the input
 (the dojo["cache"] style of call is used to avoid an issue with the build system
 erroneously trying to intern this example. To get the build system to intern your
 dojo.cache calls, use the "dojo.cache" style of call):
@@ -35,11 +38,12 @@ dojo.cache calls, use the "dojo.cache" style of call):
      //If template.html contains "<html><body><h1>Hello</h1></body></html>", the
      //text variable will contain just "<h1>Hello</h1>".
      var text = dojo["cache"]("my.module", "template.html", {sanitize: true});
-* Same example as previous, but demonstrates how an object can be passed in as
+
+---
+
+Same example as previous, but demonstrates how an object can be passed in as
 the first argument, then the value argument can then be the second argument.
 
      //If template.html contains "<html><body><h1>Hello</h1></body></html>", the
      //text variable will contain just "<h1>Hello</h1>".
      var text = dojo["cache"](new dojo._Url("my/module/template.html"), {sanitize: true});
-
-

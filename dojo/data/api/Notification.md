@@ -22,13 +22,11 @@ the store itself does internal polling to a back-end server and periodically upd
 its cache of items (deletes, adds, and updates).
 ## Examples
 
-*       function onSet(item, attribute, oldValue, newValue){
+      function onSet(item, attribute, oldValue, newValue){
         //Do something with the information...
       };
       var store = new some.newStore();
       dojo.connect(store, "onSet", onSet);
-
-
 ## Properties
 
 ### declaredClass

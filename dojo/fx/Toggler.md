@@ -16,7 +16,7 @@ these animations from the constructor (for example, `node`,
 `showDuration`, `hideDuration`).
 ## Examples
 
-*       var t = new dojo/fx/Toggler({
+      var t = new dojo/fx/Toggler({
         node: "nodeId",
         showDuration: 500,
         // hideDuration will default to "200"
@@ -26,8 +26,6 @@ these animations from the constructor (for example, `node`,
       t.show(100); // delay showing for 100ms
       // ...time passes...
       t.hide();
-
-
 ## Properties
 
 ### declaredClass

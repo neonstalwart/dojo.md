@@ -12,11 +12,9 @@ lookup. Normally one would use a memory store for the caching
 store and a server store like JsonRest for the master store.
 ## Examples
 
-*       var master = new Memory(data);
+      var master = new Memory(data);
       var cacher = new Memory();
       var store = new Cache(master, cacher);
-
-
 
 
 ## Properties

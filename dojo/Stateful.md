@@ -18,13 +18,11 @@ would have a custom getter of _fooGetter and a custom setter of _fooSetter.
 
 ## Examples
 
-*       var obj = new dojo.Stateful();
+      var obj = new dojo.Stateful();
       obj.watch("foo", function(){
         console.log("foo changed to " + this.get("foo"));
       });
       obj.set("foo","bar");
-
-
 ## Properties
 
 ### declaredClass

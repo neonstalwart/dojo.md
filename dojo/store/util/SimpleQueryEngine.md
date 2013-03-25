@@ -21,7 +21,7 @@ field as a reference to this function.
 
 ## Examples
 
-* Define a store with a reference to this engine, and set up a query method.
+Define a store with a reference to this engine, and set up a query method.
 
 
       var myStore = function(options){
@@ -32,5 +32,3 @@ field as a reference to this function.
           return QueryResults(this.queryEngine(query, options)(this.data));
         };
       };
-
-

@@ -22,15 +22,13 @@ One does not call the easing function directly, it must be passed to
 the `easing` property of an animation.
 ## Examples
 
-*       dojo.require("dojo.fx.easing");
+      dojo.require("dojo.fx.easing");
       var anim = dojo.fadeOut({
         node: 'node',
         duration: 2000,
         //  note there is no ()
         easing: dojo.fx.easing.quadIn
       }).play();
-
-
 
 
 ## Methods

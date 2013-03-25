@@ -12,12 +12,13 @@ Doesn't automatically size according to input, like Textarea.
 
 ## Examples
 
-*       <textarea data-dojo-type="dijit/form/SimpleTextarea" name="foo" value="bar" rows=30 cols=40></textarea>
+      <textarea data-dojo-type="dijit/form/SimpleTextarea" name="foo" value="bar" rows=30 cols=40></textarea>
 
 
-*       new SimpleTextarea({ rows:20, cols:30 }, "foo");
 
+---
 
+      new SimpleTextarea({ rows:20, cols:30 }, "foo");
 ## Properties
 
 ### active

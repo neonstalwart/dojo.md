@@ -27,7 +27,7 @@ widgets can contain any widget as a child.
 
 ## Examples
 
-* Some quick samples:
+Some quick samples:
 To change the innerHTML:
 
         cp.set('content', '<b>new content</b>')`
@@ -39,8 +39,6 @@ Or you can send it a NodeList:
 To do an ajax update:
 
         cp.set('href', url)
-
-
 ## Properties
 
 ### attributeMap
