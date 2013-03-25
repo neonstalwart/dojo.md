@@ -1,0 +1,2 @@
+# dojo/_firebug/firebug
+

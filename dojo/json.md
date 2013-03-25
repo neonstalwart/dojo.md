@@ -1,0 +1,21 @@
+# dojo/json
+
+## Summary
+
+Functions to parse and serialize JSON
+## Static Methods
+
+### parse
+Parses a [JSON](http://json.org) string to return a JavaScript object.
+
+### stringify
+Returns a [JSON](http://json.org) serialization of an object.
+
+## Static Methods
+
+### hasOwnProperty
+
+
+### toString
+
+
