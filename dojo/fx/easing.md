@@ -121,10 +121,3 @@ A linear easing function
 ### sineOut
 
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

@@ -13,10 +13,3 @@
 ### normalize
 
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

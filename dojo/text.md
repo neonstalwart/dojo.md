@@ -24,10 +24,3 @@ loader. This feature is outside the scope of the CommonJS plugins specification.
 ### normalize
 
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

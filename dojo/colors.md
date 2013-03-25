@@ -3,10 +3,3 @@
 ## Summary
 
 Color utilities, extending Base dojo.Color
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

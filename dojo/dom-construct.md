@@ -21,10 +21,3 @@ Returns the first argument resolved to a DOM node.
 ### toDom
 instantiates an HTML fragment returning the corresponding DOM.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

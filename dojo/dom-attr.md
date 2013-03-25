@@ -18,10 +18,3 @@ Removes an attribute from an HTML element.
 ### set
 Sets an attribute on an HTML element.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

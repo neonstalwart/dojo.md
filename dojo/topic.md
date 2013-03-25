@@ -13,10 +13,3 @@ can be provided (not just event).
 ### subscribe
 Subscribes to a topic on the pub/sub hub
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

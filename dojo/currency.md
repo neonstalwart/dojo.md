@@ -24,10 +24,3 @@ Format a Number as a currency, using locale-specific settings
 ### regexp
 
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

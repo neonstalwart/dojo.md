@@ -13,10 +13,3 @@ events.
 ### on
 Subscribe to traces.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

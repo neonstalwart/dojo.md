@@ -198,10 +198,3 @@ as the actual codes can vary by browser.
 ### copyKey
 
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

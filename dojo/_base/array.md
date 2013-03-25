@@ -37,10 +37,3 @@ an Array with the results
 Determines whether or not any item in arr satisfies the
 condition implemented by callback.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

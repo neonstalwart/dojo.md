@@ -3,10 +3,3 @@
 ## Summary
 
 Deprecated.   Use dojo/query instead.
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

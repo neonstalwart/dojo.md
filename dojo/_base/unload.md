@@ -12,10 +12,3 @@ registers a function to be triggered when the page unloads.
 registers a function to be triggered when window.onunload
 fires.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

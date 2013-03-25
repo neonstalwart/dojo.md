@@ -19,10 +19,3 @@ Serialize a form node to a JavaScript object.
 Returns a URL-encoded string representing the form passed as either a
 node or string ID identifying the form to serialize
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

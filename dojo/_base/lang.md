@@ -73,10 +73,3 @@ Set a property from a dot-separated string, such as "A.B.C"
 ### trim
 Trims whitespace from both sides of the string
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

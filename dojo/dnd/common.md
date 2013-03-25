@@ -17,10 +17,3 @@ returns true if user clicked on a form element
 ### manager
 Returns the current DnD manager.  Creates one if it is not created yet.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

@@ -14,10 +14,3 @@ be mixed into other datastore implementations to accelerate their development.
 The handler when items are sucessfully fetched.  This function should not be called directly
 and is used by simpleFetch.fetch().
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

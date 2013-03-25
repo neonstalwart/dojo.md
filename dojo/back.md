@@ -35,10 +35,3 @@ that is loaded.
 It is recommended that you call this method as part of an event
 listener that is registered via dojo/ready.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

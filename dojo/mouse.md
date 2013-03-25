@@ -29,10 +29,3 @@ Test an event object (from a mousedown event) to see if the right button was pre
 This is an extension event for the mousewheel that non-Mozilla browsers provide,
 emulating the behavior on Mozilla based browsers.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

@@ -16,10 +16,3 @@ Returns true if node is a descendant of ancestor
 ### setSelectable
 Enable or disable selection on a node
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

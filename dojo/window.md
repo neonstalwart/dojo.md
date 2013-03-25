@@ -14,10 +14,3 @@ Returns the dimensions and scroll position of the viewable area of a browser win
 ### scrollIntoView
 Scroll the passed node into view using minimal movement, if it is not already.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

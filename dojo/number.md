@@ -18,10 +18,3 @@ Builds the regular needed to parse a number
 ### round
 Rounds to the nearest value with the given number of decimal places, away from zero
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

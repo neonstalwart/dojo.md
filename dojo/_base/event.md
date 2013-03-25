@@ -14,10 +14,3 @@ bubbling methods, keystroke normalization, and x/y positions
 prevents propagation and clobbers the default action of the
 passed event
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

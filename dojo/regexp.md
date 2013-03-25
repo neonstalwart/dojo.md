@@ -14,10 +14,3 @@ Adds escape sequences for special characters in regular expressions
 ### group
 adds group match to expression
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

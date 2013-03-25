@@ -8,10 +8,3 @@ TODOC
 ### available
 True if client is using Google Gears
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

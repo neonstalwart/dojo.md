@@ -34,10 +34,3 @@ Called at the start of a drag.
 ### getViewport
 Returns the dimensions and scroll position of the viewable area of a browser window
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

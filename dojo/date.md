@@ -25,10 +25,3 @@ Get the user's time zone as provided by the browser
 ### isLeapYear
 Determines if the year of the dateObject is a leap year
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

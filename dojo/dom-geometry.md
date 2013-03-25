@@ -83,10 +83,3 @@ sets the size of the node's margin box and placement
 passthrough to setBox that handles box-model vagaries for
 you.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

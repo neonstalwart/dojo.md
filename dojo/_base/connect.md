@@ -42,10 +42,3 @@ Returns a handle which is needed to unsubscribe this listener.
 ### unsubscribe
 Remove a topic listener.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

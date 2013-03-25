@@ -712,10 +712,3 @@ listed for the dojo.__XhrArgs type, the following property is allowed:
 Sends an HTTP PUT request to the server. In addition to the properties
 listed for the dojo.__XhrArgs type, the following property is allowed:
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

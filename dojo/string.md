@@ -20,10 +20,3 @@ exception if any parameter is unmatched.
 ### trim
 Trims whitespace from both sides of the string
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

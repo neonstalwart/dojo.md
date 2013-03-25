@@ -13,10 +13,3 @@ for information.
 ### normalize
 
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

@@ -128,10 +128,3 @@ Whether the deferred instrumentation should be used.
 * `true` or `1` or `"report-unhandled-rejections"`: wait 1 second
 in an attempt to detect unhandled rejections.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

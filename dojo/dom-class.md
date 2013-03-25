@@ -30,10 +30,3 @@ Pass a boolean condition if you want to explicitly add or remove.
 Returns the condition that was specified directly or indirectly.
 
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

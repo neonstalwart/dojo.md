@@ -34,10 +34,3 @@ If the before method doesn't return anything (returns undefined) the original ar
 will be preserved.
 If there are multiple "before" advisors, they are executed in the reverse order they were registered.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

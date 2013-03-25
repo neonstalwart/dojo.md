@@ -13,10 +13,3 @@ In addition, browser, browser version, and box model are
 combined with an RTL flag when browser text is RTL. ex: dj_ie-rtl.
 
 Returns the has() method.
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

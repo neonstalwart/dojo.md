@@ -28,10 +28,3 @@ its current opacity to fully opaque.
 Returns an animation that will fade node defined in 'args'
 from its current opacity to fully transparent.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

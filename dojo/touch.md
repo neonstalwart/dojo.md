@@ -37,10 +37,3 @@ Register a listener to 'touchstart'|'mousedown' for the given node
 Register a listener to releasing the mouse button while the cursor is over the given node
 (i.e. "mouseup") or for removing the finger from the screen while touching the given node.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

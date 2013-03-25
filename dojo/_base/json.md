@@ -3,10 +3,3 @@
 ## Summary
 
 This module defines the dojo JSON API.
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

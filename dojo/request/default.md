@@ -8,10 +8,3 @@
 ### load
 
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

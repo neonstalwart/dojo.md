@@ -34,10 +34,3 @@ Expand a node to it's natural height.
 Shrink a node to nothing and hide it.
 
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

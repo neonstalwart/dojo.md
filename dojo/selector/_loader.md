@@ -8,10 +8,3 @@ This module handles loading the appropriate selector engine for the given browse
 ### load
 
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

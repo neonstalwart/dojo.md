@@ -32,10 +32,3 @@ Invoke callback with documentObject as dojo/_base/window::doc.
 Invoke callback with globalObject as dojo.global and
 globalObject.document as dojo.doc.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

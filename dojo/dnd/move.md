@@ -14,10 +14,3 @@ TODOC
 ### parentConstrainedMoveable
 
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

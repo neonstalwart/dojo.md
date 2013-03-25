@@ -24,10 +24,3 @@ in dojo/request happens.
 ### parseArgs
 
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

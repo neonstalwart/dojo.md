@@ -29,10 +29,3 @@ using locale-specific settings.
 ### regexp
 Builds the regular needed to parse a localized date
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

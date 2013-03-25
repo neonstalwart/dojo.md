@@ -9,10 +9,3 @@ TODOC
 inserts (replaces) the given content into the given node. dojo.place(cont, node, "only")
 may be a better choice for simple HTML insertion.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

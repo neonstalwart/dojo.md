@@ -16,10 +16,3 @@ sends a get request using a dynamically created script tag.
 removes the script element with the given id, from the given frameDocument.
 If no frameDocument is passed, the current document is used.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

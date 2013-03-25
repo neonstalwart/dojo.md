@@ -14,10 +14,3 @@ Create an object representing a de-serialized query section of a
 URL. Query keys with multiple values are returned in an array.
 
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

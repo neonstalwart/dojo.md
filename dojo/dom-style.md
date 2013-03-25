@@ -18,10 +18,3 @@ Sets styles on a node.
 ### toPixelValue
 converts style value to pixels on IE or return a numeric value.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-

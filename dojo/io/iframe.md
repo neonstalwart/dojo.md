@@ -19,10 +19,3 @@ Sets the URL that is loaded in an IFrame. The replace parameter
 indicates whether location.replace() should be used when
 changing the location of the iframe.
 
-# Constructor
-
-## Methods
-
-### hasOwnProperty
-
-
