@@ -12,8 +12,8 @@ its results with a `NodeList`. You can use dojo/query with a specific selector e
 by using it as a plugin. For example, if you installed the sizzle package, you could
 use it as the selector engine with:
 
-    require(["dojo/query!sizzle"], function(query){
-    query("div")...
+      require(["dojo/query!sizzle"], function(query){
+        query("div")...
 
 
 The id after the ! can be a module id of the selector engine or one of the following values:
@@ -38,14 +38,14 @@ full Acme engine will be loaded.
 For example, if you are using CSS3 pseudo selectors in module, you can specify that
 you will need support them with:
 
-    require(["dojo/query!css3"], function(query){
-    query('#t > h3:nth-child(odd)')...
+      require(["dojo/query!css3"], function(query){
+        query('#t > h3:nth-child(odd)')...
 
 
 You can also choose the selector engine/load configuration by setting the query-selector:
 For example:
 
-    <script data-dojo-config="query-selector:'css3'" src="dojo.js"></script>
+      <script data-dojo-config="query-selector:'css3'" src="dojo.js"></script>
 
 
 ## Methods

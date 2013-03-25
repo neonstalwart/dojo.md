@@ -45,14 +45,14 @@ This takes a query and query options and returns a function that can execute
 the provided query on a JavaScript array. The queryEngine may be replace to
 provide more sophisticated querying capabilities. For example:
 
-    var query = store.queryEngine({foo:"bar"}, {count:10});
-    query(someArray) -> filtered array
+     var query = store.queryEngine({foo:"bar"}, {count:10});
+     query(someArray) -> filtered array
 
 The returned query function may have a "matches" property that can be
 used to determine if an object matches the query. For example:
 
-    query.matches({id:"some-object", foo:"bar"}) -> true
-    query.matches({id:"some-object", foo:"something else"}) -> false
+     query.matches({id:"some-object", foo:"bar"}) -> true
+     query.matches({id:"some-object", foo:"something else"}) -> false
 
 ## Methods
 

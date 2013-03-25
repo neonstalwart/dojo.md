@@ -14,7 +14,7 @@ which trigger on a left mouse click, touch, or space/enter keyup.
 
 Deprecated.   New code should access the dijit/a11yclick event directly, ex:
 
-    this.own(on(node, a11yclick, function(){ ... }));
+      this.own(on(node, a11yclick, function(){ ... }));
 
 
 Mixing in this class will make _WidgetBase.connect(node, "ondijitclick", ...) work.

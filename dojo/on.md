@@ -9,28 +9,28 @@ future matching events that are fired.
 
 To listen for "click" events on a button node, we can do:
 
-    define(["dojo/on"], function(listen){
-    on(button, "click", clickHandler);
-    ...
+      define(["dojo/on"], function(listen){
+        on(button, "click", clickHandler);
+        ...
 
 Evented JavaScript objects can also have their own events.
 
-    var obj = new Evented;
-    on(obj, "foo", fooHandler);
+      var obj = new Evented;
+      on(obj, "foo", fooHandler);
 
 And then we could publish a "foo" event:
 
-    on.emit(obj, "foo", {key: "value"});
+      on.emit(obj, "foo", {key: "value"});
 
 We can use extension events as well. For example, you could listen for a tap gesture:
 
-    define(["dojo/on", "dojo/gesture/tap", function(listen, tap){
-    on(button, tap, tapHandler);
-    ...
+      define(["dojo/on", "dojo/gesture/tap", function(listen, tap){
+        on(button, tap, tapHandler);
+        ...
 
 which would trigger fooHandler. Note that for a simple object this is equivalent to calling:
 
-    obj.onfoo({key:"value"});
+      obj.onfoo({key:"value"});
 
 If you use on.emit on a DOM node, it will use native event dispatching when possible.
 ## Methods

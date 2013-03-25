@@ -9,11 +9,11 @@
 The ItemFileReadStore implements the dojo/data/api/Read API and reads
 data from JSON files that have contents in this format --
 
-    { items: [
-    { name:'Kermit', color:'green', age:12, friends:['Gonzo', {_reference:{name:'Fozzie Bear'}}]},
-    { name:'Fozzie Bear', wears:['hat', 'tie']},
-    { name:'Miss Piggy', pets:'Foo-Foo'}
-    ]}
+      { items: [
+        { name:'Kermit', color:'green', age:12, friends:['Gonzo', {_reference:{name:'Fozzie Bear'}}]},
+        { name:'Fozzie Bear', wears:['hat', 'tie']},
+        { name:'Miss Piggy', pets:'Foo-Foo'}
+      ]}
 
 Note that it can also contain an 'identifier' property that specified which attribute on the items
 in the array of items that acts as the unique identifier for that item.

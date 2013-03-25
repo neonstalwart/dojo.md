@@ -20,14 +20,14 @@ which can easily be added to an editor by including one or more of the above com
 in the `plugins` attribute as follows:
 
 
-    plugins="['fontName','fontSize',...]"
+      plugins="['fontName','fontSize',...]"
 
 
 It is possible to override the default dropdown list by providing an Array for the `custom` property when
 instantiating this plugin, e.g.
 
 
-    plugins="[{name:'dijit._editor.plugins.FontChoice', command:'fontName', values:['Verdana','Myriad','Garamond']},...]"
+      plugins="[{name:'dijit._editor.plugins.FontChoice', command:'fontName', values:['Verdana','Myriad','Garamond']},...]"
 
 
 Alternatively, for `fontName` only, `generic:true` may be specified to provide a dropdown with

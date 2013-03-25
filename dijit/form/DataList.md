@@ -13,9 +13,9 @@ Inefficient but small data store specialized for inlined data via OPTION tags
 Provides a store for inlined data like:
 
 
-    <datalist>
-    <option value="AL">Alabama</option>
-    ...
+      <datalist>
+        <option value="AL">Alabama</option>
+        ...
 ## Properties
 
 ### data

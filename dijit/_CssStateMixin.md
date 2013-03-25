@@ -32,10 +32,10 @@ need CSS classes applied on mouse hover/press and focus.
 Each entry in this optional hash is a an attach-point name (like "upArrowButton") mapped to a CSS class name
 (like "dijitUpArrowButton"). Example:
 
-    {
-    "upArrowButton": "dijitUpArrowButton",
-    "downArrowButton": "dijitDownArrowButton"
-    }
+        {
+          "upArrowButton": "dijitUpArrowButton",
+          "downArrowButton": "dijitDownArrowButton"
+        }
 
 The above will set the CSS class dijitUpArrowButton to the this.upArrowButton DOMNode when it
 is hovered, etc.

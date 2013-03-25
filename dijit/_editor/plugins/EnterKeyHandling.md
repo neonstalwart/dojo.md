@@ -24,22 +24,22 @@ paragraph, and shift-ENTER starts a new line in the current paragraph.
 For example, the input:
 
 
-    first paragraph <shift-ENTER>
-    second line of first paragraph <ENTER>
-    second paragraph
+      first paragraph <shift-ENTER>
+      second line of first paragraph <ENTER>
+      second paragraph
 
 
 will generate:
 
 
-    <p>
-    first paragraph
-    <br/>
-    second line of first paragraph
-    </p>
-    <p>
-    second paragraph
-    </p>
+      <p>
+        first paragraph
+        <br/>
+        second line of first paragraph
+      </p>
+      <p>
+        second paragraph
+      </p>
 
 
 In BR and DIV mode, the ENTER key conceptually goes to a new line in the
@@ -47,37 +47,37 @@ current paragraph, and users conceptually create a new paragraph by pressing ENT
 For example, if the user enters text into an editor like this:
 
 
-    one <ENTER>
-    two <ENTER>
-    three <ENTER>
-    <ENTER>
-    four <ENTER>
-    five <ENTER>
-    six <ENTER>
+        one <ENTER>
+        two <ENTER>
+        three <ENTER>
+        <ENTER>
+        four <ENTER>
+        five <ENTER>
+        six <ENTER>
 
 
 It will appear on the screen as two 'paragraphs' of three lines each.  Markupwise, this generates:
 
 BR:
 
-    one<br/>
-    two<br/>
-    three<br/>
-    <br/>
-    four<br/>
-    five<br/>
-    six<br/>
+        one<br/>
+        two<br/>
+        three<br/>
+        <br/>
+        four<br/>
+        five<br/>
+        six<br/>
 
 
 DIV:
 
-    <div>one</div>
-    <div>two</div>
-    <div>three</div>
-    <div>&nbsp;</div>
-    <div>four</div>
-    <div>five</div>
-    <div>six</div>
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>&nbsp;</div>
+        <div>four</div>
+        <div>five</div>
+        <div>six</div>
 ## Properties
 
 ### blockNodeForEnter

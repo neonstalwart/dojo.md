@@ -49,7 +49,7 @@ the dojo/dnd/Container.Item itself.
 The set of id's that are currently selected, such that this.selection[id] == 1
 if the node w/that id is selected.  Can iterate over selected node's id's like:
 
-    for(var id in this.selection)
+        for(var id in this.selection)
 
 ### selfAccept
 

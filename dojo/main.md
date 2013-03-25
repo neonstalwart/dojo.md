@@ -340,7 +340,7 @@ is computed (l)eft and (t)op values in pixels from the
 node's offsetParent as returned from marginBox().
 Return value will be in the form:
 
-    { l: 50, t: 200, w: 300: h: 150, x: 100, y: 300 }
+          { l: 50, t: 200, w: 300: h: 150, x: 100, y: 300 }
 
 Does not act as a setter. If includeScroll is passed, the x and
 y params are affected as one would expect in dojo.position().

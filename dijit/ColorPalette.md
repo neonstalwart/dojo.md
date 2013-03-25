@@ -39,25 +39,25 @@ and the value reflects a binding to a:
 
 - DOM node attribute
 
-    focus: {node: "focusNode", type: "attribute"}
+        focus: {node: "focusNode", type: "attribute"}
 
 Maps this.focus to this.focusNode.focus
 
 - DOM node innerHTML
 
-    title: { node: "titleNode", type: "innerHTML" }
+        title: { node: "titleNode", type: "innerHTML" }
 
 Maps this.title to this.titleNode.innerHTML
 
 - DOM node innerText
 
-    title: { node: "titleNode", type: "innerText" }
+        title: { node: "titleNode", type: "innerText" }
 
 Maps this.title to this.titleNode.innerText
 
 - DOM node CSS class
 
-    myClass: { node: "domNode", type: "class" }
+        myClass: { node: "domNode", type: "class" }
 
 Maps this.myClass to this.domNode.className
 
@@ -69,7 +69,7 @@ There are also some shorthands for backwards compatibility:
 - string --> { node: string, type: "attribute" }, for example:
 
 
-    "focusNode" ---> { node: "focusNode", type: "attribute" }
+      "focusNode" ---> { node: "focusNode", type: "attribute" }
 
 
 - "" --> { node: "domNode", type: "attribute" }
@@ -89,19 +89,19 @@ Designates where children of the source DOM node will be placed.
 For example, for myWidget:
 
 
-    <div data-dojo-type=myWidget>
-    <b> here's a plain DOM node
-    <span data-dojo-type=subWidget>and a widget</span>
-    <i> and another plain DOM node </i>
-    </div>
+      <div data-dojo-type=myWidget>
+        <b> here's a plain DOM node
+        <span data-dojo-type=subWidget>and a widget</span>
+        <i> and another plain DOM node </i>
+      </div>
 
 
 containerNode would point to:
 
 
-    <b> here's a plain DOM node
-    <span data-dojo-type=subWidget>and a widget</span>
-    <i> and another plain DOM node </i>
+        <b> here's a plain DOM node
+        <span data-dojo-type=subWidget>and a widget</span>
+        <i> and another plain DOM node </i>
 
 
 In templated widgets, "containerNode" is set via a
@@ -118,10 +118,10 @@ need CSS classes applied on mouse hover/press and focus.
 Each entry in this optional hash is a an attach-point name (like "upArrowButton") mapped to a CSS class name
 (like "dijitUpArrowButton"). Example:
 
-    {
-    "upArrowButton": "dijitUpArrowButton",
-    "downArrowButton": "dijitDownArrowButton"
-    }
+        {
+          "upArrowButton": "dijitUpArrowButton",
+          "downArrowButton": "dijitDownArrowButton"
+        }
 
 The above will set the CSS class dijitUpArrowButton to the this.upArrowButton DOMNode when it
 is hovered, etc.
@@ -269,7 +269,7 @@ Disconnects handle created by `connect`.
 ### emit
 Used by widgets to signal that a synthetic event occurred, ex:
 
-    myWidget.emit("attrmodified-selectedChildWidget", {}).
+      myWidget.emit("attrmodified-selectedChildWidget", {}).
 
 
 Emits an event on this.domNode named type.toLowerCase(), based on eventObj.

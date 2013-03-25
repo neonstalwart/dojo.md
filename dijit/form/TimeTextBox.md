@@ -40,25 +40,25 @@ and the value reflects a binding to a:
 
 - DOM node attribute
 
-    focus: {node: "focusNode", type: "attribute"}
+        focus: {node: "focusNode", type: "attribute"}
 
 Maps this.focus to this.focusNode.focus
 
 - DOM node innerHTML
 
-    title: { node: "titleNode", type: "innerHTML" }
+        title: { node: "titleNode", type: "innerHTML" }
 
 Maps this.title to this.titleNode.innerHTML
 
 - DOM node innerText
 
-    title: { node: "titleNode", type: "innerText" }
+        title: { node: "titleNode", type: "innerText" }
 
 Maps this.title to this.titleNode.innerText
 
 - DOM node CSS class
 
-    myClass: { node: "domNode", type: "class" }
+        myClass: { node: "domNode", type: "class" }
 
 Maps this.myClass to this.domNode.className
 
@@ -70,7 +70,7 @@ There are also some shorthands for backwards compatibility:
 - string --> { node: string, type: "attribute" }, for example:
 
 
-    "focusNode" ---> { node: "focusNode", type: "attribute" }
+      "focusNode" ---> { node: "focusNode", type: "attribute" }
 
 
 - "" --> { node: "domNode", type: "attribute" }
@@ -93,19 +93,19 @@ Designates where children of the source DOM node will be placed.
 For example, for myWidget:
 
 
-    <div data-dojo-type=myWidget>
-    <b> here's a plain DOM node
-    <span data-dojo-type=subWidget>and a widget</span>
-    <i> and another plain DOM node </i>
-    </div>
+      <div data-dojo-type=myWidget>
+        <b> here's a plain DOM node
+        <span data-dojo-type=subWidget>and a widget</span>
+        <i> and another plain DOM node </i>
+      </div>
 
 
 containerNode would point to:
 
 
-    <b> here's a plain DOM node
-    <span data-dojo-type=subWidget>and a widget</span>
-    <i> and another plain DOM node </i>
+        <b> here's a plain DOM node
+        <span data-dojo-type=subWidget>and a widget</span>
+        <i> and another plain DOM node </i>
 
 
 In templated widgets, "containerNode" is set via a
@@ -325,7 +325,7 @@ The value of this widget as a JavaScript Date object.  Note that the date portio
 
 Example:
 
-    new dijit/form/TimeTextBox({value: stamp.fromISOString("T12:59:59", new Date())})
+      new dijit/form/TimeTextBox({value: stamp.fromISOString("T12:59:59", new Date())})
 
 
 When passed to the parser in markup, must be specified according to locale-independent
@@ -333,7 +333,7 @@ When passed to the parser in markup, must be specified according to locale-indep
 
 Example:
 
-    <input data-dojo-type='dijit/form/TimeTextBox' value='T12:34:00'>
+      <input data-dojo-type='dijit/form/TimeTextBox' value='T12:34:00'>
 
 ## Methods
 
@@ -401,7 +401,7 @@ By default uses a tooltip.
 ### emit
 Used by widgets to signal that a synthetic event occurred, ex:
 
-    myWidget.emit("attrmodified-selectedChildWidget", {}).
+      myWidget.emit("attrmodified-selectedChildWidget", {}).
 
 
 Emits an event on this.domNode named type.toLowerCase(), based on eventObj.

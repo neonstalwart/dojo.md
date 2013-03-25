@@ -26,12 +26,12 @@ working with Dojo's promises is the then() method, which follows the
 CommonJS proposed promise API. An example of using a Dojo promise:
 
 
-    var resultingPromise = someAsyncOperation.then(function(result){
-    ... handle result ...
-    },
-    function(error){
-    ... handle error ...
-    });
+      var resultingPromise = someAsyncOperation.then(function(result){
+        ... handle result ...
+      },
+      function(error){
+        ... handle error ...
+      });
 
 
 The .then() call returns a new promise that represents the result of the

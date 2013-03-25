@@ -197,17 +197,17 @@ Returns the odd nodes in this dojo/NodeList as a dojo/NodeList.
 ### on
 Listen for events on the nodes in the NodeList. Basic usage is:
 
-    query(".my-class").on("click", listener);
+     query(".my-class").on("click", listener);
 
 This supports event delegation by using selectors as the first argument with the event names as
 pseudo selectors. For example:
 
-    dojo.query("#my-list").on("li:click", listener);
+     dojo.query("#my-list").on("li:click", listener);
 
 This will listen for click events within `<li>` elements that are inside the `#my-list` element.
 Because on supports CSS selector syntax, we can use comma-delimited events as well:
 
-    dojo.query("#my-list").on("li button:mouseover, li:click", listener);
+     dojo.query("#my-list").on("li button:mouseover, li:click", listener);
 
 ### orphan
 removes elements in this list that match the filter
