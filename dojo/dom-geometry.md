@@ -90,6 +90,3 @@ you.
 ### hasOwnProperty
 
 
-### toString
-
-

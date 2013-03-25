@@ -25,9 +25,6 @@ the manager of DnD operations (usually a singleton)
 
 ## Methods
 
-### _setCopyStatus
-changes the copy status
-
 ### canDrop
 called to notify if the current target can accept items
 

@@ -2,11 +2,6 @@
 
 *Constructor*
 
-## Properties
-
-### __ContainerArgs
-
-
 ## Methods
 
 ### Item
@@ -40,21 +35,6 @@ the dojo/dnd/Container.Item itself.
 
 
 ## Methods
-
-### _addItemClass
-adds a class with prefix "dojoDndItem"
-
-### _changeState
-changes a named state to new state value
-
-### _getChildByEvent
-gets a child, which is under the mouse at the moment, or null
-
-### _normalizedCreator
-adds all necessary data to the output of the user-supplied creator function
-
-### _removeItemClass
-removes a class with prefix "dojoDndItem"
 
 ### clearItems
 removes all data items from the map

@@ -20,6 +20,3 @@ Sets a property on an HTML element.
 ### hasOwnProperty
 
 
-### toString
-
-

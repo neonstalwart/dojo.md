@@ -12,18 +12,7 @@ provided by the data in `dojo.cldr`.  The scripts generating dojo.cldr specify w
 currency support is included.  A fixed number of decimal places is determined based
 on the currency type and is not determined by the 'pattern' argument.  The fractional
 portion is optional, by default, and variable length decimals are not supported.
-## Properties
-
-### __FormatOptions
-
-
-### __ParseOptions
-
-
 ## Methods
-
-### _mixInDefaults
-
 
 ### format
 Format a Number as a currency, using locale-specific settings
@@ -40,8 +29,5 @@ Format a Number as a currency, using locale-specific settings
 ## Methods
 
 ### hasOwnProperty
-
-
-### toString
 
 

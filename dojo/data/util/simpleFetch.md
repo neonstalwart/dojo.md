@@ -21,6 +21,3 @@ and is used by simpleFetch.fetch().
 ### hasOwnProperty
 
 
-### toString
-
-

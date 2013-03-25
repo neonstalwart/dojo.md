@@ -26,6 +26,3 @@ changing the location of the iframe.
 ### hasOwnProperty
 
 
-### toString
-
-

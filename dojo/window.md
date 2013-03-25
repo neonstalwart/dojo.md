@@ -21,6 +21,3 @@ Scroll the passed node into view using minimal movement, if it is not already.
 ### hasOwnProperty
 
 
-### toString
-
-

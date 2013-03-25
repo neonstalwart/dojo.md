@@ -3,11 +3,6 @@
 ## Summary
 
 TODOC
-## Properties
-
-### _isoRegExp
-
-
 ## Methods
 
 ### fromISOString
@@ -23,8 +18,5 @@ Format a Date object as a string according a subset of the ISO-8601 standard
 ## Methods
 
 ### hasOwnProperty
-
-
-### toString
 
 

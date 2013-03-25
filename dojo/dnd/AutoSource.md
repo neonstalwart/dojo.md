@@ -68,39 +68,6 @@ if the node w/that id is selected.  Can iterate over selected node's id's like:
 
 ## Methods
 
-### _addItemClass
-adds a class with prefix "dojoDndItem"
-
-### _changeState
-changes a named state to new state value
-
-### _getChildByEvent
-gets a child, which is under the mouse at the moment, or null
-
-### _legalMouseDown
-checks if user clicked on "approved" items
-
-### _markDndStatus
-changes source's state based on "copy" status
-
-### _markTargetAnchor
-assigns a class to the current target anchor based on "before" status
-
-### _normalizedCreator
-adds all necessary data to the output of the user-supplied creator function
-
-### _removeAnchor
-
-
-### _removeItemClass
-removes a class with prefix "dojoDndItem"
-
-### _removeSelection
-unselects all items
-
-### _unmarkTargetAnchor
-removes a class of the current target anchor based on "before" status
-
 ### checkAcceptance
 checks if the target can accept nodes from this source
 

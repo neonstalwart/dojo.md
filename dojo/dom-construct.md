@@ -28,6 +28,3 @@ instantiates an HTML fragment returning the corresponding DOM.
 ### hasOwnProperty
 
 
-### toString
-
-

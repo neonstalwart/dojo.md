@@ -23,6 +23,3 @@ Enable or disable selection on a node
 ### hasOwnProperty
 
 
-### toString
-
-

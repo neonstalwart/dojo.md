@@ -20,6 +20,3 @@ Subscribe to traces.
 ### hasOwnProperty
 
 
-### toString
-
-

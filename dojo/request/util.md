@@ -31,6 +31,3 @@ in dojo/request happens.
 ### hasOwnProperty
 
 
-### toString
-
-

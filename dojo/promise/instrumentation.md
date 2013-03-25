@@ -14,5 +14,3 @@ Sets up `dojo/promise/tracer` to log to the console.
 
 Sets up instrumentation of rejected deferreds so unhandled
 errors are logged to the console.
-# Constructor
-

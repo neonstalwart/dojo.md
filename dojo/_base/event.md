@@ -21,6 +21,3 @@ passed event
 ### hasOwnProperty
 
 
-### toString
-
-

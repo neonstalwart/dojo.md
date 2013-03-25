@@ -19,9 +19,6 @@ Note that it can also contain an 'identifier' property that specified which attr
 in the array of items that acts as the unique identifier for that item.
 ## Properties
 
-### _ccUrl
-
-
 ### clearOnClose
 Parameter to allow users to specify if a close call should force a reload or not.
 By default, it retains the old behavior of not clearing if close is called.  But
@@ -56,37 +53,6 @@ Note this does not mean the store calls the server on each fetch, only that the 
 Added for tracker: #6072
 
 ## Methods
-
-### _addReferenceToMap
-Method to add an reference map entry for an item and attribute.
-
-### _assertIsAttribute
-This function tests whether the item passed in is indeed a valid 'attribute' like type for the store.
-
-### _assertIsItem
-This function tests whether the item passed in is indeed an item in the store.
-
-### _containsValue
-Internal function for looking at the values contained by the item.
-
-### _fetchItems
-See dojo/data/util.simpleFetch.fetch()
-
-### _forceLoad
-Internal function to force a load of the store if it hasn't occurred yet.  This is required
-for specific functions to work properly.
-
-### _getItemByIdentity
-Internal function to look an item up by its identity map.
-
-### _getItemsArray
-Internal function to determine which list of items to search over.
-
-### _getItemsFromLoadedData
-Function to parse the loaded data into item format and build the internal items array.
-
-### _handleQueuedFetches
-Internal function to execute delayed request in the store.
 
 ### close
 See dojo/data/api/Read.close()

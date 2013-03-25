@@ -16,91 +16,12 @@ full power of Dojo available for DOM manipulation tasks in a
 simple, chainable way.
 ## Properties
 
-### _nodeDataCache
-
-
 ### events
 
-
-## Methods
-
-### _adaptAsFilter
-adapts a single node function to be used in the filter-type actions
-
-### _adaptAsForEach
-adapts a single node function to be used in the forEach-type
-actions. The initial object is returned from the specialized
-function.
-
-### _adaptAsMap
-adapts a single node function to be used in the map-type
-actions. The return is a new array of values, as via `dojo.map`
-
-### _adaptWithCondition
-adapts a single node function to be used in the map-type
-actions, behaves like forEach() or map() depending on arguments
-
-### _gcNodeData
-super expensive: GC all data in the data for nodes that no longer exist in the dom.
-
-### _wrap
-decorate an array to make it look like a `dojo/NodeList`.
 
 # Constructor
 
 ## Methods
-
-### _NodeListCtor
-Array-like object which adds syntactic
-sugar for chaining, common iteration operations, animation, and
-node manipulation. NodeLists are most often returned as the
-result of dojo.query() calls.
-
-### _anim
-
-
-### _buildArrayFromCallback
-builds a new array of possibly differing size based on the input list.
-Since the returned array is likely of different size than the input array,
-the array's map function cannot be used.
-
-### _cloneNode
-private utility to clone a node. Not very interesting in the vanilla
-dojo/NodeList case, but delegates could do interesting things like
-clone event handlers if that is derivable from the node.
-
-### _getRelatedUniqueNodes
-cycles over all the nodes and calls a callback
-to collect nodes for a possible inclusion in a result.
-The callback will get two args: callback(node, ary),
-where ary is the array being used to collect the nodes.
-
-### _getUniqueAsNodeList
-given a list of nodes, make sure only unique
-elements are returned as our NodeList object.
-Does not call _stash().
-
-### _getUniqueNodeListWithParent
-gets unique element nodes, filters them further
-with an optional query and then calls _stash to track parent NodeList.
-
-### _normalize
-normalizes data to an array of items to insert.
-
-### _place
-private utility to handle placing an array of nodes relative to another node.
-
-### _placeMultiple
-private method for inserting queried nodes into all nodes in this NodeList
-at different positions. Differs from NodeList.place because it will clone
-the nodes in this NodeList if the query matches more than one element.
-
-### _stash
-private function to hold to a parent NodeList. end() to return the parent NodeList.
-
-
-### _wrap
-decorate an array to make it look like a `dojo/NodeList`.
 
 ### addClass
 adds the specified class to every node in the list
@@ -383,9 +304,6 @@ gets or sets the CSS property for every element in the NodeList
 allows setting the text value of each node in the NodeList,
 if there is a value passed in, otherwise, returns the text value for all the
 nodes in the NodeList in one string.
-
-### toString
-
 
 ### toggleClass
 Adds a class to node if not present, or removes if present.

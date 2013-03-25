@@ -15,6 +15,3 @@
 ### hasOwnProperty
 
 
-### toString
-
-

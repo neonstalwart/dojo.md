@@ -128,6 +128,3 @@ A linear easing function
 ### hasOwnProperty
 
 
-### toString
-
-

@@ -2,11 +2,6 @@
 
 *Constructor*
 
-## Properties
-
-### __MoveableArgs
-
-
 # Constructor
 
 ## Summary

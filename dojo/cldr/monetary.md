@@ -15,6 +15,3 @@ A mapping of currency code to currency-specific formatting information. Returns 
 ### hasOwnProperty
 
 
-### toString
-
-

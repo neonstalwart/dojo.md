@@ -205,6 +205,3 @@ as the actual codes can vary by browser.
 ### hasOwnProperty
 
 
-### toString
-
-

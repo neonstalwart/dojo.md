@@ -20,6 +20,3 @@ Subscribes to a topic on the pub/sub hub
 ### hasOwnProperty
 
 
-### toString
-
-

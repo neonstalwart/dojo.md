@@ -44,10 +44,3 @@ Resolve the deferred.
 ### then
 Add new callbacks to the deferred.
 
-# Constructor
-
-## Methods
-
-### toString
-
-

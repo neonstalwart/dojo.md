@@ -28,5 +28,3 @@ Conditional loading of AMD modules based on a has feature test value.
 Resolves id into a module id based on possibly-nested tenary expression that branches on has feature test value(s).
 
 
-# Constructor
-

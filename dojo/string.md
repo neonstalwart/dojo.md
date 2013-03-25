@@ -27,6 +27,3 @@ Trims whitespace from both sides of the string
 ### hasOwnProperty
 
 
-### toString
-
-

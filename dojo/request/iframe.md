@@ -3,33 +3,7 @@
 ## Summary
 
 Sends a request using an iframe element with the given URL and options.
-## Properties
-
-### __BaseOptions
-
-
-### __MethodOptions
-
-
-### __Options
-
-
-### _currentDfd
-
-
-### _dfdQueue
-
-
-### _iframeName
-
-
 ## Methods
-
-### _fireNextRequest
-Internal method used to fire the next request in the queue.
-
-### _notifyStart
-
 
 ### create
 
@@ -45,6 +19,4 @@ Send an HTTP POST request using an iframe element with the given URL and options
 
 ### setSrc
 
-
-# Constructor
 

@@ -5,9 +5,6 @@
 Browser history management resources
 ## Methods
 
-### _iframeLoaded
-private method. Do not call this directly.
-
 ### addToHistory
 adds a state object (args) to the history list.
 
@@ -43,8 +40,5 @@ listener that is registered via dojo/ready.
 ## Methods
 
 ### hasOwnProperty
-
-
-### toString
 
 

@@ -21,6 +21,3 @@ TODOC
 ### hasOwnProperty
 
 
-### toString
-
-

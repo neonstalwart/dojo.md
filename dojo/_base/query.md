@@ -10,6 +10,3 @@ Deprecated.   Use dojo/query instead.
 ### hasOwnProperty
 
 
-### toString
-
-

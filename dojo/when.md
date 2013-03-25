@@ -13,5 +13,3 @@ If callbacks are provided and the initial value is not a promise,
 the callback is executed immediately with no error handling. Returns
 a promise if the initial value is a promise, or the result of the
 callback otherwise.
-# Constructor
-

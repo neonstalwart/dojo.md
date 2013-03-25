@@ -20,6 +20,3 @@ Returns the has() method.
 ### hasOwnProperty
 
 
-### toString
-
-

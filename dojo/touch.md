@@ -44,6 +44,3 @@ Register a listener to releasing the mouse button while the cursor is over the g
 ### hasOwnProperty
 
 
-### toString
-
-

@@ -12,6 +12,3 @@ Helper function to convert a simple pattern to a regular expression for matching
 ### hasOwnProperty
 
 
-### toString
-
-

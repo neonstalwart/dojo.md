@@ -18,12 +18,6 @@ drags near the edge of the viewport or a scrollable node
 ### V_TRIGGER_AUTOSCROLL
 
 
-### _validNodes
-
-
-### _validOverflow
-
-
 ## Methods
 
 ### autoScroll
@@ -45,8 +39,5 @@ Returns the dimensions and scroll position of the viewable area of a browser win
 ## Methods
 
 ### hasOwnProperty
-
-
-### toString
 
 

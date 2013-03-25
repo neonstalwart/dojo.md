@@ -10,6 +10,3 @@ Color utilities, extending Base dojo.Color
 ### hasOwnProperty
 
 
-### toString
-
-

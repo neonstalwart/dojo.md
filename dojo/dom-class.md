@@ -37,6 +37,3 @@ Returns the condition that was specified directly or indirectly.
 ### hasOwnProperty
 
 
-### toString
-
-

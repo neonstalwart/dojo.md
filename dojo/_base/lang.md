@@ -3,23 +3,7 @@
 ## Summary
 
 This module defines Javascript language extensions.
-## Properties
-
-### _extraNames
-Lists property names that must be explicitly processed during for-in iteration
-in environments that have has("bug-for-in-skips-shadowed") true.
-
 ## Methods
-
-### _hitchArgs
-
-
-### _mixin
-Copies/adds all properties of source to dest; returns dest.
-
-### _toArray
-Converts an array-like object (i.e. arguments, DOMCollection) to an
-array. Returns a new Array with the elements of obj.
 
 ### clone
 Clones objects (including DOM nodes) and all children.
@@ -94,8 +78,5 @@ Trims whitespace from both sides of the string
 ## Methods
 
 ### hasOwnProperty
-
-
-### toString
 
 

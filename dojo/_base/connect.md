@@ -11,9 +11,6 @@ firing for printable characters, to distinguish from keydown events), and most
 consider the WebKit/IE behavior more desirable.
 ## Methods
 
-### _keypress
-
-
 ### connect
 `dojo.connect` is a deprecated event handling and delegation method in
 Dojo. It allows one function to "listen in" on the execution of
@@ -50,8 +47,5 @@ Remove a topic listener.
 ## Methods
 
 ### hasOwnProperty
-
-
-### toString
 
 

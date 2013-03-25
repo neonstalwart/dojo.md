@@ -9,5 +9,3 @@ minus pseudo-classes and the sibling combinator, plus CSS3 attribute selectors
 ### match
 
 
-# Constructor
-

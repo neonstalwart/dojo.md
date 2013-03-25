@@ -25,6 +25,3 @@ converts style value to pixels on IE or return a numeric value.
 ### hasOwnProperty
 
 
-### toString
-
-

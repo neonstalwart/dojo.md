@@ -10,6 +10,3 @@ This module is a stub for the core dojo DOM API.
 ### hasOwnProperty
 
 
-### toString
-
-

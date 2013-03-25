@@ -5,9 +5,6 @@
 TODOC
 ## Methods
 
-### _region
-
-
 ### getFirstDayOfWeek
 Returns a zero-based index for first day of the week
 
@@ -19,8 +16,5 @@ Returns a hash containing the start and end days of the weekend
 ## Methods
 
 ### hasOwnProperty
-
-
-### toString
 
 

@@ -41,6 +41,3 @@ If there are multiple "before" advisors, they are executed in the reverse order 
 ### hasOwnProperty
 
 
-### toString
-
-

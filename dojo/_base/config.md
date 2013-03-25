@@ -135,6 +135,3 @@ in an attempt to detect unhandled rejections.
 ### hasOwnProperty
 
 
-### toString
-
-

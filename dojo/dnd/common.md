@@ -3,34 +3,7 @@
 ## Summary
 
 TODOC
-## Properties
-
-### _defaultCreatorNodes
-
-
-### _empty
-
-
-### _manager
-
-
-### _uniqueId
-
-
 ## Methods
-
-### _createNode
-returns a function, which creates an element of given tag
-(SPAN by default) and sets its innerHTML to given text
-
-### _createSpan
-creates a SPAN element with given text as its innerHTML
-
-### _createTrTd
-creates a TR/TD structure with given text as an innerHTML of TD
-
-### _defaultCreator
-takes a parent node, and returns an appropriate creator function
 
 ### getCopyKeyState
 
@@ -49,8 +22,5 @@ Returns the current DnD manager.  Creates one if it is not created yet.
 ## Methods
 
 ### hasOwnProperty
-
-
-### toString
 
 

@@ -92,5 +92,3 @@ from the original by calling `dojo.query(node)` or
 ### filter
 function for filtering a NodeList based on a selector, optimized for simple selectors
 
-# Constructor
-

@@ -11,18 +11,6 @@ callbacks. The router module is a singleton, offering one central
 point for all registrations of this type.
 ## Properties
 
-### _currentPath
-
-
-### _routeIndex
-
-
-### _routes
-
-
-### _started
-
-
 ### globMatch
 
 
@@ -36,21 +24,6 @@ point for all registrations of this type.
 
 
 ## Methods
-
-### _convertRouteToRegExp
-
-
-### _getParameterNames
-
-
-### _handlePathChange
-
-
-### _indexRoutes
-
-
-### _registerRoute
-
 
 ### go
 A simple pass-through to make changing the hash easy,

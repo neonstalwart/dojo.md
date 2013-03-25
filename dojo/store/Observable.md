@@ -10,5 +10,3 @@ results that can be used to monitor results for changes.
 Observable wraps an existing store so that notifications can be made when a query
 is performed.
 
-# Constructor
-

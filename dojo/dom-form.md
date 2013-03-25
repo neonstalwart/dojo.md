@@ -26,6 +26,3 @@ node or string ID identifying the form to serialize
 ### hasOwnProperty
 
 
-### toString
-
-

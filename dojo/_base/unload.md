@@ -19,6 +19,3 @@ fires.
 ### hasOwnProperty
 
 
-### toString
-
-

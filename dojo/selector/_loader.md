@@ -15,6 +15,3 @@ This module handles loading the appropriate selector engine for the given browse
 ### hasOwnProperty
 
 
-### toString
-
-

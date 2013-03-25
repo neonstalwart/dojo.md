@@ -25,9 +25,6 @@ The object store to convert to a data store
 
 ## Methods
 
-### _objectConverter
-
-
 ### add
 Creates an object, throws an error if the object already exists
 

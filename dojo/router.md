@@ -11,6 +11,3 @@ module for specifics.
 ### hasOwnProperty
 
 
-### toString
-
-

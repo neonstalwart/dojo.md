@@ -36,9 +36,6 @@ Add new errbacks to the promise.
 ### then
 Add new callbacks to the promise.
 
-### toString
-
-
 ### trace
 Trace the promise.
 

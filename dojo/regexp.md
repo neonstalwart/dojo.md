@@ -21,6 +21,3 @@ adds group match to expression
 ### hasOwnProperty
 
 
-### toString
-
-

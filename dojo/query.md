@@ -56,11 +56,6 @@ sugar for chaining, common iteration operations, animation, and
 node manipulation. NodeLists are most often returned as the
 result of dojo.query() calls.
 
-### _filterResult
-
-
 ### load
 can be used as AMD plugin to conditionally load new query engine
-
-# Constructor
 

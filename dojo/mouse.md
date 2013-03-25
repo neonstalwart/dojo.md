@@ -16,9 +16,6 @@ behavior on other browsers.
 
 ## Methods
 
-### _eventHandler
-
-
 ### isLeft
 Test an event object (from a mousedown event) to see if the left button was pressed.
 
@@ -37,8 +34,5 @@ emulating the behavior on Mozilla based browsers.
 ## Methods
 
 ### hasOwnProperty
-
-
-### toString
 
 

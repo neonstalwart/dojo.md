@@ -18,6 +18,3 @@ Returns a [JSON](http://json.org) serialization of an object.
 ### hasOwnProperty
 
 
-### toString
-
-

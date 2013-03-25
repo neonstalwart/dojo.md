@@ -16,24 +16,6 @@ these animations from the constructor (for example, `node`,
 `showDuration`, `hideDuration`).
 ## Properties
 
-### _hideAnim
-
-
-### _hideArgs
-
-
-### _isHiding
-
-
-### _isShowing
-
-
-### _showAnim
-
-
-### _showArgs
-
-
 ### declaredClass
 
 

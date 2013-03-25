@@ -9,5 +9,3 @@ Handles getting and setting of location.hash.
 
 - If no arguments are passed, acts as a getter.
 - If a string is passed, acts as a setter.
-# Constructor
-

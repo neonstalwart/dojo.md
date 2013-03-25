@@ -13,5 +13,3 @@ promises; this wrapper makes sure that *all* results can be treated
 the same.
 
 Additional methods include `forEach`, `filter` and `map`.
-# Constructor
-

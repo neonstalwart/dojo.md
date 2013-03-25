@@ -44,6 +44,3 @@ condition implemented by callback.
 ### hasOwnProperty
 
 
-### toString
-
-

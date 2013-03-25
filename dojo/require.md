@@ -20,6 +20,3 @@
 ### hasOwnProperty
 
 
-### toString
-
-

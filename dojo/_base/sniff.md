@@ -11,6 +11,3 @@ This module populates the dojo browser version sniffing properties like dojo.isI
 ### hasOwnProperty
 
 
-### toString
-
-

@@ -21,6 +21,3 @@ URL. Query keys with multiple values are returned in an array.
 ### hasOwnProperty
 
 
-### toString
-
-

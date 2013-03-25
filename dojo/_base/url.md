@@ -32,10 +32,3 @@
 ### user
 
 
-# Constructor
-
-## Methods
-
-### toString
-
-

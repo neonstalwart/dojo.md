@@ -17,38 +17,6 @@ A map of available XHR transport handle types. Name matches the
 
 ## Methods
 
-### _getText
-
-
-### _ioAddQueryToUrl
-Adds query params discovered by the io deferred construction to the URL.
-Only use this for operations which are fundamentally GET-type operations.
-
-### _ioCancelAll
-Cancels all pending IO requests, regardless of IO type
-(xhr, script, iframe).
-
-### _ioNotifyStart
-If dojo.publish is available, publish topics
-about the start of a request queue and/or the
-the beginning of request.
-
-Used by IO transports. An IO transport should
-call this method before making the network connection.
-
-### _ioSetArgs
-sets up the Deferred and ioArgs property on the Deferred so it
-can be used in an io call.
-
-### _ioWatch
-Watches the io request represented by dfd to see if it completes.
-
-### _isDocumentOk
-
-
-### _xhrObj
-does the work of portably generating a new XMLHTTPRequest object.
-
 ### del
 Sends an HTTP DELETE request to the server.
 
@@ -85,6 +53,4 @@ listed for the dojo.__XhrArgs type, the following property is allowed:
 Create an object representing a de-serialized query section of a
 URL. Query keys with multiple values are returned in an array.
 
-
-# Constructor
 

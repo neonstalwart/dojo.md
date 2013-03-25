@@ -3,30 +3,7 @@
 ## Summary
 
 This modules defines dojo/date/locale, localization methods for Date.
-## Properties
-
-### __FormatOptions
-
-
 ## Methods
-
-### _getDayOfYear
-gets the day of the year as represented by dateObject
-
-### _getGregorianBundle
-
-
-### _getWeekOfYear
-
-
-### _getZone
-Returns the zone (or offset) for the given date and options.  This
-is broken out into a separate function so that it can be overridden
-by timezone-aware code.
-
-
-### _parseInfo
-
 
 ### addCustomFormats
 Add a reference to a bundle containing localized custom formats to be
@@ -57,8 +34,5 @@ Builds the regular needed to parse a localized date
 ## Methods
 
 ### hasOwnProperty
-
-
-### toString
 
 

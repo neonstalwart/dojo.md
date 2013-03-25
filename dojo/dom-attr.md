@@ -25,6 +25,3 @@ Sets an attribute on an HTML element.
 ### hasOwnProperty
 
 
-### toString
-
-

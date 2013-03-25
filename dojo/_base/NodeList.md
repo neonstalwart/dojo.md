@@ -13,6 +13,3 @@ mouseout(), mouseover(), mouseup(), and submit() methods.
 ### hasOwnProperty
 
 
-### toString
-
-

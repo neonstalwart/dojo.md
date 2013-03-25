@@ -15,5 +15,3 @@ Use to determine if the current browser supports cookies or not.
 Returns true if user allows cookies.
 Returns false if user doesn't allow cookies.
 
-# Constructor
-

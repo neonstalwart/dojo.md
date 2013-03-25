@@ -3,20 +3,6 @@
 ## Summary
 
 Send a request using the default transport for the current platform.
-## Properties
-
-### __BaseOptions
-
-
-### __MethodOptions
-
-
-### __Options
-
-
-### __Promise
-
-
 ## Methods
 
 ### del
@@ -30,6 +16,4 @@ Send an HTTP POST request using the default transport for the current platform.
 
 ### put
 Send an HTTP POST request using the default transport for the current platform.
-
-# Constructor
 

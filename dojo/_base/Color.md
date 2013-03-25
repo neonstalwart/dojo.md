@@ -55,9 +55,6 @@ creates a greyscale color with an optional alpha
 
 ## Methods
 
-### _set
-
-
 ### sanitize
 makes sure that the object has correct attributes
 
@@ -79,7 +76,4 @@ Returns 3 component array of rgb values
 ### toRgba
 Returns a 4 component array of rgba values from the color
 represented by this object.
-
-### toString
-Returns a visual representation of the color
 

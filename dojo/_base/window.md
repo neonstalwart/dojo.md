@@ -39,6 +39,3 @@ globalObject.document as dojo.doc.
 ### hasOwnProperty
 
 
-### toString
-
-

@@ -15,6 +15,3 @@ Helper function to generate the sorting function based off the list of sort attr
 ### hasOwnProperty
 
 
-### toString
-
-

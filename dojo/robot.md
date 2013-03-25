@@ -2,32 +2,6 @@
 
 ## Properties
 
-### _appletDead
-
-
-### _loaded
-Deferred that resolves when the _initRobot() has been called.
-Note to be confused with dojo/robotx.js, which defines initRobot() without an underscore
-
-### _primePump
-
-
-### _robotInitialized
-
-
-### _robotLoaded
-
-
-### _runsemaphore
-
-
-### _spaceReceived
-
-
-### _started
-Deferred that resolves when startRobot() has signaled completing by typing on the keyboard,
-which in turn calls _run().
-
 ### doc
 
 
@@ -38,53 +12,6 @@ which in turn calls _run().
 
 
 ## Methods
-
-### _assertRobot
-
-
-### _getWindowChain
-
-
-### _initKeyboard
-
-
-### _initRobot
-
-
-### _initWheel
-
-
-### _killApplet
-
-
-### _mouseMove
-
-
-### _notified
-
-
-### _onKeyboard
-
-
-### _position
-
-
-### _resolveNode
-
-
-### _run
-
-
-### _scrollIntoView
-
-
-### _setDocumentBounds
-
-
-### _updateDocument
-Called every time a new page is loaded into the iframe, to setup variables
-Point dojo.global, dojo.publish, etc. to refer to iframe.
-Remove for 2.0?
 
 ### initRobot
 Opens the application at the specified URL for testing, redirecting dojo to point to the application
@@ -150,8 +77,5 @@ returning a doh.Deferred object the user should return in their runTest function
 ## Methods
 
 ### hasOwnProperty
-
-
-### toString
 
 

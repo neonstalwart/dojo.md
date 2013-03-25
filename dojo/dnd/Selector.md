@@ -38,27 +38,6 @@ if the node w/that id is selected.  Can iterate over selected node's id's like:
 
 ## Methods
 
-### _addItemClass
-adds a class with prefix "dojoDndItem"
-
-### _changeState
-changes a named state to new state value
-
-### _getChildByEvent
-gets a child, which is under the mouse at the moment, or null
-
-### _normalizedCreator
-adds all necessary data to the output of the user-supplied creator function
-
-### _removeAnchor
-
-
-### _removeItemClass
-removes a class with prefix "dojoDndItem"
-
-### _removeSelection
-unselects all items
-
 ### clearItems
 removes all data items from the map
 

@@ -41,6 +41,3 @@ Shrink a node to nothing and hide it.
 ### hasOwnProperty
 
 
-### toString
-
-

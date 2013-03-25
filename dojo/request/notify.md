@@ -9,5 +9,3 @@ in dojo/request happens.
 ### emit
 
 
-# Constructor
-

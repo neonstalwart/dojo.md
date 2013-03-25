@@ -17,9 +17,6 @@ a DnD manager object
 
 ## Methods
 
-### _generateText
-generates a proper text to reflect copying or moving of items
-
 ### construct
 constructor function;
 it is separate so it can be (dynamically) overwritten in case of need

@@ -32,6 +32,3 @@ Determines if the year of the dateObject is a leap year
 ### hasOwnProperty
 
 
-### toString
-
-

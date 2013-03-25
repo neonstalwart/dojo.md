@@ -10,6 +10,3 @@ This module defines the dojo JSON API.
 ### hasOwnProperty
 
 
-### toString
-
-
