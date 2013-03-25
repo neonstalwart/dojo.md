@@ -12,6 +12,15 @@ A keyboard accessible color-picking widget
 Grid showing various colors, so the user can pick a certain color.
 Can be used standalone, or as a popup.
 
+## Examples
+
+*       <div data-dojo-type="dijit/ColorPalette"></div>
+
+
+*       var picker = new dijit.ColorPalette({ },srcNode);
+      picker.startup();
+
+
 ## Properties
 
 ### active

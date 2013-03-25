@@ -48,6 +48,31 @@ For example:
       <script data-dojo-config="query-selector:'css3'" src="dojo.js"></script>
 
 
+## Examples
+
+* add an onclick handler to every submit button in the document
+which causes the form to be sent via Ajax instead:
+
+      require(["dojo/query"], function(query){
+        query("input[type='submit']").on("click", function(e){
+          dojo.stopEvent(e); // prevent sending the form
+          var btn = e.target;
+          dojo.xhrPost({
+            form: btn.form,
+            load: function(data){
+              // replace the form with the response
+              var div = dojo.doc.createElement("div");
+              dojo.place(div, btn.form, "after");
+              div.innerHTML = data;
+              dojo.style(btn.form, "display", "none");
+            }
+          });
+        });
+      });
+
+
+
+
 ## Methods
 
 ### NodeList

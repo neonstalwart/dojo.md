@@ -4,6 +4,22 @@
 
 provides aspect oriented programming functionality, allowing for
 one to add before, around, or after advice on existing methods.
+## Examples
+
+*       define(["dojo/aspect"], function(aspect){
+        var signal = aspect.after(targetObject, "methodName", function(someArgument){
+          this will be called when targetObject.methodName() is called, after the original function is called
+        });
+
+
+* The returned signal object can be used to cancel the advice.
+
+      signal.remove(); // this will stop the advice from being executed anymore
+      aspect.before(targetObject, "methodName", function(someArgument){
+        // this will be called when targetObject.methodName() is called, before the original function is called
+       });
+
+
 ## Methods
 
 ### after

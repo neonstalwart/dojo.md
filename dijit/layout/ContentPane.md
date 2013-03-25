@@ -25,6 +25,22 @@ ContentPane is useful as a child of other layout containers
 such as BorderContainer or TabContainer, but note that those
 widgets can contain any widget as a child.
 
+## Examples
+
+* Some quick samples:
+To change the innerHTML:
+
+        cp.set('content', '<b>new content</b>')`
+
+Or you can send it a NodeList:
+
+        cp.set('content', dojo.query('div [class=selected]', userSelection))
+
+To do an ajax update:
+
+        cp.set('href', url)
+
+
 ## Properties
 
 ### attributeMap

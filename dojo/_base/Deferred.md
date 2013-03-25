@@ -54,6 +54,107 @@ aborting of an XMLHttpRequest, etc. Note that cancel will fire the
 deferred with a CancelledError (unless your canceller returns
 another kind of error), so the errbacks should be prepared to
 handle that error for cancellable Deferreds.
+## Examples
+
+*       var deferred = new Deferred();
+      setTimeout(function(){ deferred.callback({success: true}); }, 1000);
+      return deferred;
+* Deferred objects are often used when making code asynchronous. It
+may be easiest to write functions in a synchronous manner and then
+split code using a deferred to trigger a response to a long-lived
+operation. For example, instead of register a callback function to
+denote when a rendering operation completes, the function can
+simply return a deferred:
+
+
+      // callback style:
+      function renderLotsOfData(data, callback){
+        var success = false
+        try{
+          for(var x in data){
+            renderDataitem(data[x]);
+          }
+          success = true;
+        }catch(e){ }
+        if(callback){
+          callback(success);
+        }
+      }
+
+
+
+      // using callback style
+      renderLotsOfData(someDataObj, function(success){
+        // handles success or failure
+        if(!success){
+          promptUserToRecover();
+        }
+      });
+      // NOTE: no way to add another callback here!!
+* Using a Deferred doesn't simplify the sending code any, but it
+provides a standard interface for callers and senders alike,
+providing both with a simple way to service multiple callbacks for
+an operation and freeing both sides from worrying about details
+such as "did this get called already?". With Deferreds, new
+callbacks can be added at any time.
+
+
+      // Deferred style:
+      function renderLotsOfData(data){
+        var d = new Deferred();
+        try{
+          for(var x in data){
+            renderDataitem(data[x]);
+          }
+          d.callback(true);
+        }catch(e){
+          d.errback(new Error("rendering failed"));
+        }
+        return d;
+      }
+
+
+
+      // using Deferred style
+      renderLotsOfData(someDataObj).then(null, function(){
+        promptUserToRecover();
+      });
+      // NOTE: addErrback and addCallback both return the Deferred
+      // again, so we could chain adding callbacks or save the
+      // deferred for later should we need to be notified again.
+* In this example, renderLotsOfData is synchronous and so both
+versions are pretty artificial. Putting the data display on a
+timeout helps show why Deferreds rock:
+
+
+      // Deferred style and async func
+      function renderLotsOfData(data){
+        var d = new Deferred();
+        setTimeout(function(){
+          try{
+            for(var x in data){
+              renderDataitem(data[x]);
+            }
+            d.callback(true);
+          }catch(e){
+            d.errback(new Error("rendering failed"));
+          }
+        }, 100);
+        return d;
+      }
+
+
+
+      // using Deferred style
+      renderLotsOfData(someDataObj).then(null, function(){
+        promptUserToRecover();
+      });
+
+
+Note that the caller doesn't have to change his code at all to
+handle the asynchronous case.
+
+
 ## Properties
 
 ### promise

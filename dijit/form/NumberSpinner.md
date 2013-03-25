@@ -15,6 +15,11 @@ as well as icons for spinning direction. When using the keyboard, the typematic 
 apply, meaning holding the key will gradually increase or decrease the value and
 accelerate.
 
+## Examples
+
+*      new NumberSpinner({ constraints:{ max:300, min:100 }}, "someInput");
+
+
 ## Properties
 
 ### active

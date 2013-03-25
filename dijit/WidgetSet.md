@@ -9,6 +9,20 @@
 A set of widgets indexed by id.
 Deprecated, will be removed in 2.0.
 
+## Examples
+
+* Create a small list of widgets:
+
+      require(["dijit/WidgetSet", "dijit/registry"],
+        function(WidgetSet, registry){
+        var ws = new WidgetSet();
+        ws.add(registry.byId("one"));
+        ws.add(registry.byId("two"));
+        // destroy both:
+        ws.forEach(function(w){ w.destroy(); });
+      });
+
+
 ## Properties
 
 ### declaredClass

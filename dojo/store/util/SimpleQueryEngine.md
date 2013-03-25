@@ -19,3 +19,18 @@ contains filtering functions, or a string that gets evaluated, etc.
 When creating a new dojo.store, simply set the store's queryEngine
 field as a reference to this function.
 
+## Examples
+
+* Define a store with a reference to this engine, and set up a query method.
+
+
+      var myStore = function(options){
+        //  ...more properties here
+        this.queryEngine = SimpleQueryEngine;
+        //  define our query method
+        this.query = function(query, options){
+          return QueryResults(this.queryEngine(query, options)(this.data));
+        };
+      };
+
+

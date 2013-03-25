@@ -14,6 +14,20 @@ set of arguments about what type of animation to use in each
 direction, duration, etc. All available members are mixed into
 these animations from the constructor (for example, `node`,
 `showDuration`, `hideDuration`).
+## Examples
+
+*       var t = new dojo/fx/Toggler({
+        node: "nodeId",
+        showDuration: 500,
+        // hideDuration will default to "200"
+        showFunc: dojo/fx/wipeIn,
+        // hideFunc will default to "fadeOut"
+      });
+      t.show(100); // delay showing for 100ms
+      // ...time passes...
+      t.hide();
+
+
 ## Properties
 
 ### declaredClass

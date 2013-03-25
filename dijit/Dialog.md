@@ -12,6 +12,14 @@ A modal dialog Widget.
 Pops up a modal dialog window, blocking access to the screen
 and also graying out the screen Dialog is extended from
 ContentPane so it supports all the same parameters (href, etc.).
+## Examples
+
+*       <div data-dojo-type="dijit/Dialog" data-dojo-props="href: 'test.html'"></div>
+*       var foo = new Dialog({ title: "test dialog", content: "test content" });
+      foo.placeAt(win.body());
+      foo.startup();
+
+
 ## Properties
 
 ### active

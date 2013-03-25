@@ -8,6 +8,17 @@
 
 Widget corresponding to HTML form tag, for validation and serialization
 
+## Examples
+
+*       <form data-dojo-type="dijit/form/Form" id="myForm">
+        Name: <input type="text" name="name" />
+      </form>
+      myObj = {name: "John Doe"};
+      dijit.byId('myForm').set('value', myObj);
+    
+      myObj=dijit.byId('myForm').get('value');
+
+
 ## Properties
 
 ### accept

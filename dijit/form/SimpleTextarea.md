@@ -10,6 +10,14 @@ A simple textarea that degrades, and responds to
 minimal LayoutContainer usage, and works with dijit/form/Form.
 Doesn't automatically size according to input, like Textarea.
 
+## Examples
+
+*       <textarea data-dojo-type="dijit/form/SimpleTextarea" name="foo" value="bar" rows=30 cols=40></textarea>
+
+
+*       new SimpleTextarea({ rows:20, cols:30 }, "foo");
+
+
 ## Properties
 
 ### active

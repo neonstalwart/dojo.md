@@ -3,6 +3,14 @@
 ## Summary
 
 Pubsub hub.
+## Examples
+
+*        topic.subscribe("some/topic", function(event){
+      ... do something with event
+      });
+      topic.publish("some/topic", {name:"some event", ...});
+
+
 ## Methods
 
 ### publish

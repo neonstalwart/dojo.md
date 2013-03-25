@@ -10,6 +10,20 @@ A combination button and drop-down button.
 Users can click one side to "press" the button, or click an arrow
 icon to display the drop down.
 
+## Examples
+
+*       <button data-dojo-type="dijit/form/ComboButton" onClick="...">
+        <span>Hello world</span>
+        <div data-dojo-type="dijit/Menu">...</div>
+      </button>
+
+
+*       var button1 = new ComboButton({label: "hello world", onClick: foo, dropDown: "myMenu"});
+      dojo.body().appendChild(button1.domNode);
+
+
+
+
 ## Properties
 
 ### active

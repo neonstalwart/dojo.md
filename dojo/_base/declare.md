@@ -71,6 +71,140 @@ using "after" and destructors of any kind are chained as
 "before". Note that chaining assumes that chained methods do not
 return any value: any returned value will be discarded.
 
+## Examples
+
+*       declare("my.classes.bar", my.classes.foo, {
+        // properties to be added to the class prototype
+        someValue: 2,
+        // initialization function
+        constructor: function(){
+          this.myComplicatedObject = new ReallyComplicatedObject();
+        },
+        // other functions
+        someMethod: function(){
+          doStuff();
+        }
+      });
+
+
+*       var MyBase = declare(null, {
+        // constructor, properties, and methods go here
+        // ...
+      });
+      var MyClass1 = declare(MyBase, {
+        // constructor, properties, and methods go here
+        // ...
+      });
+      var MyClass2 = declare(MyBase, {
+        // constructor, properties, and methods go here
+        // ...
+      });
+      var MyDiamond = declare([MyClass1, MyClass2], {
+        // constructor, properties, and methods go here
+        // ...
+      });
+
+
+*       var F = function(){ console.log("raw constructor"); };
+      F.prototype.method = function(){
+        console.log("raw method");
+      };
+      var A = declare(F, {
+        constructor: function(){
+          console.log("A.constructor");
+        },
+        method: function(){
+          console.log("before calling F.method...");
+          this.inherited(arguments);
+          console.log("...back in A");
+        }
+      });
+      new A().method();
+      // will print:
+      // raw constructor
+      // A.constructor
+      // before calling F.method...
+      // raw method
+      // ...back in A
+
+
+*       var A = declare(null, {
+        "-chains-": {
+          destroy: "before"
+        }
+      });
+      var B = declare(A, {
+        constructor: function(){
+          console.log("B.constructor");
+        },
+        destroy: function(){
+          console.log("B.destroy");
+        }
+      });
+      var C = declare(B, {
+        constructor: function(){
+          console.log("C.constructor");
+        },
+        destroy: function(){
+          console.log("C.destroy");
+        }
+      });
+      new C().destroy();
+      // prints:
+      // B.constructor
+      // C.constructor
+      // C.destroy
+      // B.destroy
+
+
+*       var A = declare(null, {
+        "-chains-": {
+          constructor: "manual"
+        }
+      });
+      var B = declare(A, {
+        constructor: function(){
+          // ...
+          // call the base constructor with new parameters
+          this.inherited(arguments, [1, 2, 3]);
+          // ...
+        }
+      });
+
+
+*       var A = declare(null, {
+        "-chains-": {
+          m1: "before"
+        },
+        m1: function(){
+          console.log("A.m1");
+        },
+        m2: function(){
+          console.log("A.m2");
+        }
+      });
+      var B = declare(A, {
+        "-chains-": {
+          m2: "after"
+        },
+        m1: function(){
+          console.log("B.m1");
+        },
+        m2: function(){
+          console.log("B.m2");
+        }
+      });
+      var x = new B();
+      x.m1();
+      // prints:
+      // B.m1
+      // A.m1
+      x.m2();
+      // prints:
+      // A.m2
+      // B.m2
+
+
 ## Methods
 
 ### safeMixin

@@ -87,6 +87,69 @@ to a node or NodeList, you can quickly construct a new NodeList
 from the original by calling `dojo.query(node)` or
 `dojo.query(list)`.
 
+## Examples
+
+* search the entire document for elements with the class "foo":
+
+      dojo.query(".foo");
+
+these elements will match:
+
+      <span class="foo"></span>
+      <span class="foo bar"></span>
+      <p class="thud foo"></p>
+* search the entire document for elements with the classes "foo" *and* "bar":
+
+      dojo.query(".foo.bar");
+
+these elements will match:
+
+      <span class="foo bar"></span>
+
+while these will not:
+
+      <span class="foo"></span>
+      <p class="thud foo"></p>
+* find `<span>` elements which are descendants of paragraphs and
+which have a "highlighted" class:
+
+      dojo.query("p span.highlighted");
+
+the innermost span in this fragment matches:
+
+      <p class="foo">
+        <span>...
+          <span class="highlighted foo bar">...</span>
+        </span>
+      </p>
+* set an "odd" class on all odd table rows inside of the table
+`#tabular_data`, using the `>` (direct child) selector to avoid
+affecting any nested tables:
+
+      dojo.query("#tabular_data > tbody > tr:nth-child(odd)").addClass("odd");
+* remove all elements with the class "error" from the document
+and store them in a list:
+
+      var errors = dojo.query(".error").orphan();
+* add an onclick handler to every submit button in the document
+which causes the form to be sent via Ajax instead:
+
+      dojo.query("input[type='submit']").onclick(function(e){
+        dojo.stopEvent(e); // prevent sending the form
+        var btn = e.target;
+        dojo.xhrPost({
+          form: btn.form,
+          load: function(data){
+            // replace the form with the response
+            var div = dojo.doc.createElement("div");
+            dojo.place(div, btn.form, "after");
+            div.innerHTML = data;
+            dojo.style(btn.form, "display", "none");
+          }
+        });
+      });
+
+
 ## Methods
 
 ### filter

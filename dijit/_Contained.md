@@ -8,6 +8,12 @@
 
 Mixin for widgets that are children of a container widget
 
+## Examples
+
+*       // make a basic custom widget that knows about it's parents
+      declare("my.customClass",[dijit._Widget,dijit._Contained],{});
+
+
 ## Properties
 
 ### declaredClass

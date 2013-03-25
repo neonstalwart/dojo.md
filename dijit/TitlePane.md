@@ -14,6 +14,23 @@ An accessible container with a title Heading, and a content
 section that slides open and closed. TitlePane is an extension to
 `dijit/layout/ContentPane`, providing all the useful content-control aspects from it.
 
+## Examples
+
+*       // load a TitlePane from remote file:
+      var foo = new dijit.TitlePane({ href: "foobar.html", title:"Title" });
+      foo.startup();
+
+
+*       <!-- markup href example: -->
+      <div data-dojo-type="dijit/TitlePane" data-dojo-props="href: 'foobar.html', title: 'Title'"></div>
+
+
+*       <!-- markup with inline data -->
+      <div data-dojo-type="dijit/TitlePane" title="Title">
+        <p>I am content</p>
+      </div>
+
+
 ## Properties
 
 ### active

@@ -13,6 +13,11 @@ the title is specified as innerHTML rather than as a title attribute.
 LinkPane is just a ContentPane that is declared in markup similarly
 to an anchor.  The anchor's body (the words between `<a>` and `</a>`)
 become the title of the widget (used for TabContainer, AccordionContainer, etc.)
+## Examples
+
+*      <a href="foo.html">my title</a>
+
+
 ## Properties
 
 ### attachScope

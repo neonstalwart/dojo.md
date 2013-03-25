@@ -16,6 +16,15 @@ Getters and Setters should follow the format of _xxxGetter or _xxxSetter where
 the xxx is a name of the attribute to handle.  So an attribute of "foo"
 would have a custom getter of _fooGetter and a custom setter of _fooSetter.
 
+## Examples
+
+*       var obj = new dojo.Stateful();
+      obj.watch("foo", function(){
+        console.log("foo changed to " + this.get("foo"));
+      });
+      obj.set("foo","bar");
+
+
 ## Properties
 
 ### declaredClass

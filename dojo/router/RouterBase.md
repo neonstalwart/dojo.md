@@ -9,6 +9,21 @@
 A module that allows one to easily map hash-based structures into
 callbacks. The router module is a singleton, offering one central
 point for all registrations of this type.
+## Examples
+
+*       var router = new RouterBase({});
+      router.register("/widgets/:id", function(evt){
+        // If "/widgets/3" was matched,
+        // evt.params.id === "3"
+        xhr.get({
+          url: "/some/path/" + evt.params.id,
+          load: function(data){
+            // ...
+          }
+        });
+      });
+
+
 ## Properties
 
 ### globMatch

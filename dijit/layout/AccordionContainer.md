@@ -8,6 +8,17 @@
 
 Holds a set of panes where every pane's title is visible, but only one pane's content is visible at a time,
 and switching between panes is visualized by sliding the other panes up/down.
+## Examples
+
+*       <div data-dojo-type="dijit/layout/AccordionContainer">
+        <div data-dojo-type="dijit/layout/ContentPane" title="pane 1">
+        </div>
+        <div data-dojo-type="dijit/layout/ContentPane" title="pane 2">
+          <p>This is some text</p>
+        </div>
+      </div>
+
+
 ## Properties
 
 ### attributeMap
