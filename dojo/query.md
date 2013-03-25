@@ -1,4 +1,4 @@
-# dojo/query
+# Module: dojo/query
 
 ## Summary
 
@@ -48,7 +48,7 @@ For example:
     <script data-dojo-config="query-selector:'css3'" src="dojo.js"></script>
 
 
-## Static Methods
+## Methods
 
 ### NodeList
 Array-like object which adds syntactic
@@ -61,4 +61,6 @@ result of dojo.query() calls.
 
 ### load
 can be used as AMD plugin to conditionally load new query engine
+
+# Constructor
 

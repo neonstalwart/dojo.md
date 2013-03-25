@@ -1,6 +1,8 @@
-# dojo/dnd/TimedMoveable
+# Module: dojo/dnd/TimedMoveable
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
@@ -8,7 +10,7 @@ A specialized version of Moveable to support an FPS throttling.
 This class puts an upper restriction on FPS, which may reduce
 the CPU load. The additional parameter "timeout" regulates
 the delay before actually moving the moveable object.
-## Static Properties
+## Properties
 
 ### declaredClass
 
@@ -25,7 +27,7 @@ the delay before actually moving the moveable object.
 ### timeout
 
 
-## Static Methods
+## Methods
 
 ### destroy
 stops watching for possible move, deletes all references, so the object can be garbage-collected

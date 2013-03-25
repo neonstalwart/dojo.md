@@ -1,6 +1,8 @@
-# dojo/Stateful
+# Module: dojo/Stateful
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
@@ -14,7 +16,7 @@ Getters and Setters should follow the format of _xxxGetter or _xxxSetter where
 the xxx is a name of the attribute to handle.  So an attribute of "foo"
 would have a custom getter of _fooGetter and a custom setter of _fooSetter.
 
-## Static Properties
+## Properties
 
 ### _attrPairNames
 Used across all instances a hash to cache attribute names and their getter 
@@ -23,7 +25,7 @@ and setter names.
 ### declaredClass
 
 
-## Static Methods
+## Methods
 
 ### _changeAttrValue
 Internal helper for directly changing an attribute value.

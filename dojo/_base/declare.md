@@ -1,4 +1,4 @@
-# dojo/_base/declare
+# Module: dojo/_base/declare
 
 ## Summary
 
@@ -71,15 +71,17 @@ using "after" and destructors of any kind are chained as
 "before". Note that chaining assumes that chained methods do not
 return any value: any returned value will be discarded.
 
-## Static Properties
+## Properties
 
 ### __DeclareCreatedObject
 dojo/_base/declare() returns a constructor `C`.   `new C()` returns an Object with the following
 methods, in addition to the methods and properties specified via the arguments passed to declare().
 
-## Static Methods
+## Methods
 
 ### safeMixin
 Mix in properties skipping a constructor and decorating functions
 like it is done by declare().
+
+# Constructor
 

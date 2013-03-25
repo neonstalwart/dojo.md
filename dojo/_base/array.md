@@ -1,9 +1,9 @@
-# dojo/_base/array
+# Module: dojo/_base/array
 
 ## Summary
 
 The Javascript v1.6 array extensions.
-## Static Methods
+## Methods
 
 ### clearCache
 
@@ -37,7 +37,9 @@ an Array with the results
 Determines whether or not any item in arr satisfies the
 condition implemented by callback.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

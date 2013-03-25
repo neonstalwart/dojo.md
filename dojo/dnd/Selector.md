@@ -1,11 +1,13 @@
-# dojo/dnd/Selector
+# Module: dojo/dnd/Selector
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 a Selector object, which knows how to select its children
-## Static Properties
+## Properties
 
 ### allowNested
 Indicates whether to allow dnd item nodes to be nested within other elements.
@@ -34,7 +36,7 @@ if the node w/that id is selected.  Can iterate over selected node's id's like:
 ### skipForm
 
 
-## Static Methods
+## Methods
 
 ### _addItemClass
 adds a class with prefix "dojoDndItem"

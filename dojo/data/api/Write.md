@@ -1,18 +1,20 @@
-# dojo/data/api/Write
+# Module: dojo/data/api/Write
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 This is an abstract API that data provider implementations conform to.
 This file defines function signatures and intentionally leaves all the
 functions unimplemented.
-## Static Properties
+## Properties
 
 ### declaredClass
 
 
-## Static Methods
+## Methods
 
 ### close
 The close() method is intended for instructing the store to 'close' out

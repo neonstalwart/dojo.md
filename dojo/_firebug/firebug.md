@@ -1,2 +1,2 @@
-# dojo/_firebug/firebug
+# Module: dojo/_firebug/firebug
 

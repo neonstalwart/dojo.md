@@ -1,14 +1,14 @@
-# dojo/domReady
+# Module: dojo/domReady
 
 ## Summary
 
 Plugin to delay require()/define() callback from firing until the DOM has finished loading.
-## Static Properties
+## Properties
 
 ### _Q
 
 
-## Static Methods
+## Methods
 
 ### _onQEmpty
 Private method overridden by dojo/ready, to notify when everything in the
@@ -17,4 +17,6 @@ Will be removed in 2.0, along with domReady._Q.
 
 ### load
 
+
+# Constructor
 

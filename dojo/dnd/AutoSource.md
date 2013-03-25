@@ -1,11 +1,13 @@
-# dojo/dnd/AutoSource
+# Module: dojo/dnd/AutoSource
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 a source that syncs its DnD nodes by default
-## Static Properties
+## Properties
 
 ### accept
 
@@ -64,7 +66,7 @@ if the node w/that id is selected.  Can iterate over selected node's id's like:
 ### withHandles
 
 
-## Static Methods
+## Methods
 
 ### _addItemClass
 adds a class with prefix "dojoDndItem"

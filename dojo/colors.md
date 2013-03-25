@@ -1,9 +1,11 @@
-# dojo/colors
+# Module: dojo/colors
 
 ## Summary
 
 Color utilities, extending Base dojo.Color
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

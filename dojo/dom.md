@@ -1,9 +1,9 @@
-# dojo/dom
+# Module: dojo/dom
 
 ## Summary
 
 This module defines the core dojo DOM API.
-## Static Methods
+## Methods
 
 ### byId
 Returns DOM node with matching `id` attribute or falsy value (ex: null or undefined)
@@ -16,7 +16,9 @@ Returns true if node is a descendant of ancestor
 ### setSelectable
 Enable or disable selection on a node
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

@@ -1,5 +1,7 @@
-# dojo/errors/RequestTimeoutError
+# Module: dojo/errors/RequestTimeoutError
 
 ## Summary
 
 TODOC
+# Constructor
+

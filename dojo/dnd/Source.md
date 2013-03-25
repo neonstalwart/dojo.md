@@ -1,11 +1,13 @@
-# dojo/dnd/Source
+# Module: dojo/dnd/Source
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 a Source object, which can be used as a DnD source, or a DnD target
-## Static Properties
+## Properties
 
 ### accept
 
@@ -64,7 +66,7 @@ if the node w/that id is selected.  Can iterate over selected node's id's like:
 ### withHandles
 
 
-## Static Methods
+## Methods
 
 ### _addItemClass
 adds a class with prefix "dojoDndItem"

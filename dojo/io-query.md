@@ -1,9 +1,9 @@
-# dojo/io-query
+# Module: dojo/io-query
 
 ## Summary
 
 This module defines query string processing functions.
-## Static Methods
+## Methods
 
 ### objectToQuery
 takes a name/value mapping object and returns a string representing
@@ -14,7 +14,9 @@ Create an object representing a de-serialized query section of a
 URL. Query keys with multiple values are returned in an array.
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

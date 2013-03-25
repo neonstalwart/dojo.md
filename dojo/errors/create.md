@@ -1,2 +1,4 @@
-# dojo/errors/create
+# Module: dojo/errors/create
+
+# Constructor
 

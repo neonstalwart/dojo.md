@@ -1,10 +1,10 @@
-# dojo/io/iframe
+# Module: dojo/io/iframe
 
 ## Summary
 
 Deprecated, use dojo/request/iframe instead.
 Sends an Ajax I/O call using and Iframe (for instance, to upload files)
-## Static Methods
+## Methods
 
 ### create
 Creates a hidden iframe in the page. Used mostly for IO
@@ -19,7 +19,9 @@ Sets the URL that is loaded in an IFrame. The replace parameter
 indicates whether location.replace() should be used when
 changing the location of the iframe.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

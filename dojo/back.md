@@ -1,9 +1,9 @@
-# dojo/back
+# Module: dojo/back
 
 ## Summary
 
 Browser history management resources
-## Static Methods
+## Methods
 
 ### _iframeLoaded
 private method. Do not call this directly.
@@ -38,7 +38,9 @@ that is loaded.
 It is recommended that you call this method as part of an event
 listener that is registered via dojo/ready.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

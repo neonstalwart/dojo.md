@@ -1,6 +1,6 @@
-# dojo/require
+# Module: dojo/require
 
-## Static Properties
+## Properties
 
 ### dynamic
 
@@ -8,12 +8,14 @@
 ### load
 
 
-## Static Methods
+## Methods
 
 ### normalize
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

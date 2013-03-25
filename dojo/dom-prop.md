@@ -1,11 +1,11 @@
-# dojo/dom-prop
+# Module: dojo/dom-prop
 
-## Static Properties
+## Properties
 
 ### names
 
 
-## Static Methods
+## Methods
 
 ### get
 Gets a property on an HTML element.
@@ -13,7 +13,9 @@ Gets a property on an HTML element.
 ### set
 Sets a property on an HTML element.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

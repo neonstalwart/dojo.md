@@ -1,4 +1,4 @@
-# dojo/store/util/SimpleQueryEngine
+# Module: dojo/store/util/SimpleQueryEngine
 
 ## Summary
 
@@ -18,4 +18,6 @@ contains filtering functions, or a string that gets evaluated, etc.
 
 When creating a new dojo.store, simply set the store's queryEngine
 field as a reference to this function.
+
+# Constructor
 

@@ -1,9 +1,9 @@
-# dojo/dom-class
+# Module: dojo/dom-class
 
 ## Summary
 
 This module defines the core dojo DOM class API.
-## Static Methods
+## Methods
 
 ### add
 Adds the specified classes to the end of the class list on the
@@ -30,7 +30,9 @@ Pass a boolean condition if you want to explicitly add or remove.
 Returns the condition that was specified directly or indirectly.
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

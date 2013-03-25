@@ -1,11 +1,13 @@
-# dojo/dnd/Target
+# Module: dojo/dnd/Target
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 a Target object, which can be used as a DnD target
-## Static Properties
+## Properties
 
 ### accept
 
@@ -64,7 +66,7 @@ if the node w/that id is selected.  Can iterate over selected node's id's like:
 ### withHandles
 
 
-## Static Methods
+## Methods
 
 ### _addItemClass
 adds a class with prefix "dojoDndItem"

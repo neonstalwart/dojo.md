@@ -1,18 +1,20 @@
-# dojo/data/api/Identity
+# Module: dojo/data/api/Identity
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 This is an abstract API that data provider implementations conform to.
 This file defines methods signatures and intentionally leaves all the
 methods unimplemented.
-## Static Properties
+## Properties
 
 ### declaredClass
 
 
-## Static Methods
+## Methods
 
 ### close
 The close() method is intended for instructing the store to 'close' out

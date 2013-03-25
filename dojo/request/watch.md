@@ -1,14 +1,16 @@
-# dojo/request/watch
+# Module: dojo/request/watch
 
 ## Summary
 
 Watches the io request represented by dfd to see if it completes.
-## Static Methods
+## Methods
 
 ### cancelAll
 Cancels all pending IO requests, regardless of IO type
 
-## Static Properties
+# Constructor
+
+## Properties
 
 ### ioCheck
 Function used to check if basic IO call worked. Gets the dfd

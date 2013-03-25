@@ -1,9 +1,9 @@
-# dojo/dom-style
+# Module: dojo/dom-style
 
 ## Summary
 
 This module defines the core dojo DOM style API.
-## Static Methods
+## Methods
 
 ### get
 Accesses styles on a node.
@@ -18,7 +18,9 @@ Sets styles on a node.
 ### toPixelValue
 converts style value to pixels on IE or return a numeric value.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

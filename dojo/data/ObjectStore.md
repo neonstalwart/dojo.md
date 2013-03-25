@@ -1,12 +1,14 @@
-# dojo/data/ObjectStore
+# Module: dojo/data/ObjectStore
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 A Dojo Data implementation that wraps Dojo object stores for backwards
 compatibility.
-## Static Properties
+## Properties
 
 ### declaredClass
 
@@ -17,7 +19,7 @@ compatibility.
 ### objectStore
 
 
-## Static Methods
+## Methods
 
 ### changing
 adds an object to the list of dirty objects.  This object

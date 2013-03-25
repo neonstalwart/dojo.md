@@ -1,9 +1,9 @@
-# dojo/dom-form
+# Module: dojo/dom-form
 
 ## Summary
 
 This module defines form-processing functions.
-## Static Methods
+## Methods
 
 ### fieldToObject
 Serialize a form field to a JavaScript object.
@@ -19,7 +19,9 @@ Serialize a form node to a JavaScript object.
 Returns a URL-encoded string representing the form passed as either a
 node or string ID identifying the form to serialize
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

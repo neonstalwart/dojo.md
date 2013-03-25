@@ -1,10 +1,10 @@
-# dojo/request/node
+# Module: dojo/request/node
 
 ## Summary
 
 Sends a request using the included http or https interface from node.js
 with the given URL and options.
-## Static Properties
+## Properties
 
 ### __BaseOptions
 
@@ -15,7 +15,7 @@ with the given URL and options.
 ### __Options
 
 
-## Static Methods
+## Methods
 
 ### del
 Send an HTTP DELETE request using XMLHttpRequest with the given URL and options.
@@ -28,4 +28,6 @@ Send an HTTP POST request using XMLHttpRequest with the given URL and options.
 
 ### put
 Send an HTTP PUT request using XMLHttpRequest with the given URL and options.
+
+# Constructor
 

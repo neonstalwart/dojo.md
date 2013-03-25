@@ -1,4 +1,4 @@
-# dojo/ready
+# Module: dojo/ready
 
 ## Summary
 
@@ -7,3 +7,5 @@ In most cases, the `domReady` plug-in should suffice and this method should not 
 
 When called in a non-browser environment, just checks that all requested modules have arrived and been
 evaluated.
+# Constructor
+

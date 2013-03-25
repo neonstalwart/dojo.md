@@ -1,6 +1,6 @@
-# dojo/request/default
+# Module: dojo/request/default
 
-## Static Methods
+## Methods
 
 ### getPlatformDefaultId
 
@@ -8,7 +8,9 @@
 ### load
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

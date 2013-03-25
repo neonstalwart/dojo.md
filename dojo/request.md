@@ -1,9 +1,9 @@
-# dojo/request
+# Module: dojo/request
 
 ## Summary
 
 Send a request using the default transport for the current platform.
-## Static Properties
+## Properties
 
 ### __BaseOptions
 
@@ -17,7 +17,7 @@ Send a request using the default transport for the current platform.
 ### __Promise
 
 
-## Static Methods
+## Methods
 
 ### del
 Send an HTTP DELETE request using the default transport for the current platform.
@@ -30,4 +30,6 @@ Send an HTTP POST request using the default transport for the current platform.
 
 ### put
 Send an HTTP POST request using the default transport for the current platform.
+
+# Constructor
 

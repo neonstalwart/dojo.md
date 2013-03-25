@@ -1,23 +1,25 @@
-# dojo/dnd/Container
+# Module: dojo/dnd/Container
 
 *Constructor*
 
-## Static Properties
+## Properties
 
 ### __ContainerArgs
 
 
-## Static Methods
+## Methods
 
 ### Item
 Represents (one of) the source node(s) being dragged.
 Contains (at least) the "type" and "data" attributes.
 
+# Constructor
+
 ## Summary
 
 a Container object, which knows when mouse hovers over it,
 and over which element it hovers
-## Static Properties
+## Properties
 
 ### allowNested
 Indicates whether to allow dnd item nodes to be nested within other elements.
@@ -37,7 +39,7 @@ the dojo/dnd/Container.Item itself.
 ### skipForm
 
 
-## Static Methods
+## Methods
 
 ### _addItemClass
 adds a class with prefix "dojoDndItem"

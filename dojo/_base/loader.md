@@ -1,2 +1,4 @@
-# dojo/_base/loader
+# Module: dojo/_base/loader
+
+# Constructor
 

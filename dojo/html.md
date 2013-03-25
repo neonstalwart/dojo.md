@@ -1,14 +1,14 @@
-# dojo/html
+# Module: dojo/html
 
 ## Summary
 
 TODOC
-## Static Properties
+## Properties
 
 ### _ContentSetter
 
 
-## Static Methods
+## Methods
 
 ### _emptyNode
 Removes all child nodes from the given node.   Deprecated, should use dojo/dom-constuct.empty() directly
@@ -27,7 +27,9 @@ inserts the given content into the given node
 inserts (replaces) the given content into the given node. dojo.place(cont, node, "only")
 may be a better choice for simple HTML insertion.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

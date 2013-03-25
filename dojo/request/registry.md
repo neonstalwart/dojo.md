@@ -1,10 +1,12 @@
-# dojo/request/registry
+# Module: dojo/request/registry
 
-## Static Methods
+## Methods
 
 ### load
 
 
 ### register
 
+
+# Constructor
 

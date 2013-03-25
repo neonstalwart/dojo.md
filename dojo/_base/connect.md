@@ -1,4 +1,4 @@
-# dojo/_base/connect
+# Module: dojo/_base/connect
 
 ## Summary
 
@@ -9,7 +9,7 @@ However, this extension event exists primarily for backwards compatibility and
 is not recommended. WebKit and IE uses an alternate keypress handling (only
 firing for printable characters, to distinguish from keydown events), and most
 consider the WebKit/IE behavior more desirable.
-## Static Methods
+## Methods
 
 ### _keypress
 
@@ -45,7 +45,9 @@ Returns a handle which is needed to unsubscribe this listener.
 ### unsubscribe
 Remove a topic listener.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

@@ -1,10 +1,10 @@
-# dojo/mouse
+# Module: dojo/mouse
 
 ## Summary
 
 This module provide mouse event handling utility functions and exports
 mouseenter and mouseleave event emulation.
-## Static Properties
+## Properties
 
 ### enter
 This is an extension event for the mouseenter that IE provides, emulating the
@@ -14,7 +14,7 @@ behavior on other browsers.
 This is an extension event for the mouseleave that IE provides, emulating the
 behavior on other browsers.
 
-## Static Methods
+## Methods
 
 ### _eventHandler
 
@@ -32,7 +32,9 @@ Test an event object (from a mousedown event) to see if the right button was pre
 This is an extension event for the mousewheel that non-Mozilla browsers provide,
 emulating the behavior on Mozilla based browsers.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

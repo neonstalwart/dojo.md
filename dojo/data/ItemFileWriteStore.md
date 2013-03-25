@@ -1,11 +1,13 @@
-# dojo/data/ItemFileWriteStore
+# Module: dojo/data/ItemFileWriteStore
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 TODOC
-## Static Properties
+## Properties
 
 ### _ccUrl
 
@@ -46,7 +48,7 @@ Parameter to allow specifying if preventCache should be passed to the xhrGet cal
 Note this does not mean the store calls the server on each fetch, only that the data load has preventCache set as an option.
 Added for tracker: #6072
 
-## Static Methods
+## Methods
 
 ### _addReferenceToMap
 Method to add an reference map entry for an item and attribute.

@@ -1,4 +1,4 @@
-# dojo/_base/config
+# Module: dojo/_base/config
 
 ## Summary
 
@@ -10,7 +10,7 @@ thereby eliminating the need for sniffing and or explicitly setting in the globa
 Also, when multiple instances of dojo exist in a single application, each will necessarily be located
 at an unique absolute module identifier as given by the package configuration. Implementing configuration
 as a module allows for specifying unique, per-instance configurations.
-## Static Properties
+## Properties
 
 ### addOnLoad
 Adds a callback via dojo/ready. Useful when Dojo is added after
@@ -128,7 +128,9 @@ Whether the deferred instrumentation should be used.
 * `true` or `1` or `"report-unhandled-rejections"`: wait 1 second
 in an attempt to detect unhandled rejections.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

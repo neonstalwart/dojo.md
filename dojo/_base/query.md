@@ -1,9 +1,11 @@
-# dojo/_base/query
+# Module: dojo/_base/query
 
 ## Summary
 
 Deprecated.   Use dojo/query instead.
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

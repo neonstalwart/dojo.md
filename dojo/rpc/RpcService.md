@@ -1,11 +1,13 @@
-# dojo/rpc/RpcService
+# Module: dojo/rpc/RpcService
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 TODOC
-## Static Properties
+## Properties
 
 ### declaredClass
 
@@ -16,7 +18,7 @@ TODOC
 ### strictArgChecks
 
 
-## Static Methods
+## Methods
 
 ### errorCallback
 create callback that calls the Deferred errback method

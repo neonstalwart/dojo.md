@@ -1,10 +1,10 @@
-# dojo/keys
+# Module: dojo/keys
 
 ## Summary
 
 Definitions for common key values.  Client code should test keyCode against these named constants,
 as the actual codes can vary by browser.
-## Static Properties
+## Properties
 
 ### ALT
 
@@ -198,7 +198,9 @@ as the actual codes can vary by browser.
 ### copyKey
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

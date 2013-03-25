@@ -1,9 +1,9 @@
-# dojo/_base/fx
+# Module: dojo/_base/fx
 
 ## Summary
 
 This module defines the base dojo/_base/fx implementation.
-## Static Methods
+## Methods
 
 ### Animation
 A generic animation class that fires callbacks into its handlers
@@ -39,7 +39,9 @@ its current opacity to fully opaque.
 Returns an animation that will fade node defined in 'args'
 from its current opacity to fully transparent.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

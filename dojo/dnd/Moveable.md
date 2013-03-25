@@ -1,16 +1,18 @@
-# dojo/dnd/Moveable
+# Module: dojo/dnd/Moveable
 
 *Constructor*
 
-## Static Properties
+## Properties
 
 ### __MoveableArgs
 
 
+# Constructor
+
 ## Summary
 
 an object, which makes a node movable
-## Static Properties
+## Properties
 
 ### declaredClass
 
@@ -24,7 +26,7 @@ an object, which makes a node movable
 ### skip
 
 
-## Static Methods
+## Methods
 
 ### destroy
 stops watching for possible move, deletes all references, so the object can be garbage-collected

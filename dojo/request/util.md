@@ -1,6 +1,6 @@
-# dojo/request/util
+# Module: dojo/request/util
 
-## Static Methods
+## Methods
 
 ### addCommonMethods
 
@@ -24,7 +24,9 @@ in dojo/request happens.
 ### parseArgs
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

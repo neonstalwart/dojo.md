@@ -1,6 +1,6 @@
-# dojo/data/util/simpleFetch
+# Module: dojo/data/util/simpleFetch
 
-## Static Methods
+## Methods
 
 ### errorHandler
 The error handler when there is an error fetching items.  This function should not be called
@@ -14,7 +14,9 @@ be mixed into other datastore implementations to accelerate their development.
 The handler when items are sucessfully fetched.  This function should not be called directly
 and is used by simpleFetch.fetch().
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

@@ -1,9 +1,11 @@
-# dojo/_base/html
+# Module: dojo/_base/html
 
 ## Summary
 
 This module is a stub for the core dojo DOM API.
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

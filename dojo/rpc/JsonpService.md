@@ -1,13 +1,15 @@
-# dojo/rpc/JsonpService
+# Module: dojo/rpc/JsonpService
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 Generic JSONP service.  Minimally extends RpcService to allow
 easy definition of nearly any JSONP style service. Example
 SMD files exist in dojox.data
-## Static Properties
+## Properties
 
 ### declaredClass
 
@@ -18,7 +20,7 @@ SMD files exist in dojox.data
 ### strictArgChecks
 
 
-## Static Methods
+## Methods
 
 ### bind
 JSONP bind method. Takes remote method, parameters,

@@ -1,4 +1,4 @@
-# dojo/currency
+# Module: dojo/currency
 
 ## Summary
 
@@ -12,7 +12,7 @@ provided by the data in `dojo.cldr`.  The scripts generating dojo.cldr specify w
 currency support is included.  A fixed number of decimal places is determined based
 on the currency type and is not determined by the 'pattern' argument.  The fractional
 portion is optional, by default, and variable length decimals are not supported.
-## Static Properties
+## Properties
 
 ### __FormatOptions
 
@@ -20,7 +20,7 @@ portion is optional, by default, and variable length decimals are not supported.
 ### __ParseOptions
 
 
-## Static Methods
+## Methods
 
 ### _mixInDefaults
 
@@ -35,7 +35,9 @@ Format a Number as a currency, using locale-specific settings
 ### regexp
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

@@ -1,14 +1,16 @@
-# dojo/selector/_loader
+# Module: dojo/selector/_loader
 
 ## Summary
 
 This module handles loading the appropriate selector engine for the given browser
-## Static Methods
+## Methods
 
 ### load
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

@@ -1,9 +1,9 @@
-# dojo/request/script
+# Module: dojo/request/script
 
 ## Summary
 
 Sends a request using a script element with the given URL and options.
-## Static Properties
+## Properties
 
 ### __BaseOptions
 
@@ -17,7 +17,7 @@ Sends a request using a script element with the given URL and options.
 ### _callbacksProperty
 
 
-## Static Methods
+## Methods
 
 ### _attach
 
@@ -27,4 +27,6 @@ Sends a request using a script element with the given URL and options.
 
 ### get
 Send an HTTP GET request using a script element with the given URL and options.
+
+# Constructor
 

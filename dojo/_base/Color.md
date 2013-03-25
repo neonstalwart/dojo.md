@@ -1,4 +1,4 @@
-# dojo/_base/Color
+# Module: dojo/_base/Color
 
 ## Summary
 
@@ -6,12 +6,12 @@ Takes a named string, hex string, array of rgb or rgba values,
 an object with r, g, b, and a properties, or another `Color` object
 and creates a new Color instance to work from.
 
-## Static Properties
+## Properties
 
 ### named
 Dictionary list of all CSS named colors, by name. Values are 3-item arrays with corresponding RG and B values.
 
-## Static Methods
+## Methods
 
 ### blendColors
 Blend colors end and start with weight from 0 to 1, 0.5 being a 50/50 blend,
@@ -37,7 +37,9 @@ style color values.
 ### makeGrey
 creates a greyscale color with an optional alpha
 
-## Static Properties
+# Constructor
+
+## Properties
 
 ### a
 
@@ -51,7 +53,7 @@ creates a greyscale color with an optional alpha
 ### r
 
 
-## Static Methods
+## Methods
 
 ### _set
 

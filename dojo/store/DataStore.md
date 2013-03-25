@@ -1,13 +1,15 @@
-# dojo/store/DataStore
+# Module: dojo/store/DataStore
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 This is an adapter for using Dojo Data stores with an object store consumer.
 You can provide a Dojo data store and use this adapter to interact with it through
 the Dojo object store API
-## Static Properties
+## Properties
 
 ### declaredClass
 
@@ -21,7 +23,7 @@ The object store to convert to a data store
 ### target
 
 
-## Static Methods
+## Methods
 
 ### _objectConverter
 

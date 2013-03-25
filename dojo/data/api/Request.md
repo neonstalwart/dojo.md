@@ -1,6 +1,8 @@
-# dojo/data/api/Request
+# Module: dojo/data/api/Request
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
@@ -16,12 +18,12 @@ This file defines methods signatures and intentionally leaves all the
 methods unimplemented.
 
 For more details on fetch, see dojo/data/api/Read.fetch().
-## Static Properties
+## Properties
 
 ### declaredClass
 
 
-## Static Methods
+## Methods
 
 ### abort
 This function is a hook point for stores to provide as a way for

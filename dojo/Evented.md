@@ -1,4 +1,4 @@
-# dojo/Evented
+# Module: dojo/Evented
 
 ## Summary
 
@@ -15,7 +15,9 @@ for listening for events and emitting events:
     });
     
     widget.emit("open", {name:"some event", ...});
-## Static Methods
+# Constructor
+
+## Methods
 
 ### emit
 

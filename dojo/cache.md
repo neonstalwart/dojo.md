@@ -1,4 +1,4 @@
-# dojo/cache
+# Module: dojo/cache
 
 ## Summary
 
@@ -17,3 +17,5 @@ in its internal cache and return that cached value for the URL. To clear
 a cache value pass null for value. Since XMLHttpRequest (XHR) is used to fetch the
 the URL contents, only modules on the same domain of the page can use this capability.
 The build system can inline the cache values though, to allow for xdomain hosting.
+# Constructor
+

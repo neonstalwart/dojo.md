@@ -1,16 +1,18 @@
-# dojo/dnd/Manager
+# Module: dojo/dnd/Manager
 
 *Constructor*
 
-## Static Methods
+## Methods
 
 ### manager
 Returns the current DnD manager.  Creates one if it is not created yet.
 
+# Constructor
+
 ## Summary
 
 the manager of DnD operations (usually a singleton)
-## Static Properties
+## Properties
 
 ### OFFSET_X
 
@@ -21,7 +23,7 @@ the manager of DnD operations (usually a singleton)
 ### declaredClass
 
 
-## Static Methods
+## Methods
 
 ### _setCopyStatus
 changes the copy status

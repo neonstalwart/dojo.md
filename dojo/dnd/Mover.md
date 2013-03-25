@@ -1,17 +1,19 @@
-# dojo/dnd/Mover
+# Module: dojo/dnd/Mover
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 an object which makes a node follow the mouse, or touch-drag on touch devices.
 Used as a default mover, and as a base class for custom movers.
-## Static Properties
+## Properties
 
 ### declaredClass
 
 
-## Static Methods
+## Methods
 
 ### destroy
 stops the move, deletes all references, so the object can be garbage-collected

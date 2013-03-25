@@ -1,10 +1,10 @@
-# dojo/dnd/autoscroll
+# Module: dojo/dnd/autoscroll
 
 ## Summary
 
 Used by dojo/dnd/Manager to scroll document or internal node when the user
 drags near the edge of the viewport or a scrollable node
-## Static Properties
+## Properties
 
 ### H_AUTOSCROLL_VALUE
 
@@ -24,7 +24,7 @@ drags near the edge of the viewport or a scrollable node
 ### _validOverflow
 
 
-## Static Methods
+## Methods
 
 ### autoScroll
 a handler for mousemove and touchmove events, which scrolls the window, if
@@ -40,7 +40,9 @@ Called at the start of a drag.
 ### getViewport
 Returns the dimensions and scroll position of the viewable area of a browser window
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

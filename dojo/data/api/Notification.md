@@ -1,6 +1,8 @@
-# dojo/data/api/Notification
+# Module: dojo/data/api/Notification
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
@@ -18,12 +20,12 @@ notifications.  Both read-only and read-write stores may implement
 this feature.  In the case of a read-only store, this feature makes sense if
 the store itself does internal polling to a back-end server and periodically updates
 its cache of items (deletes, adds, and updates).
-## Static Properties
+## Properties
 
 ### declaredClass
 
 
-## Static Methods
+## Methods
 
 ### close
 The close() method is intended for instructing the store to 'close' out

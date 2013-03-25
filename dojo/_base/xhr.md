@@ -1,4 +1,4 @@
-# dojo/_base/xhr
+# Module: dojo/_base/xhr
 
 ## Summary
 
@@ -9,13 +9,13 @@ Sends an HTTP request with the given method.
 See also dojo.xhrGet(), xhrPost(), xhrPut() and dojo.xhrDelete() for shortcuts
 for those HTTP methods. There are also methods for "raw" PUT and POST methods
 via dojo.rawXhrPut() and dojo.rawXhrPost() respectively.
-## Static Properties
+## Properties
 
 ### contentHandlers
 A map of available XHR transport handle types. Name matches the
 `handleAs` attribute passed to XHR calls.
 
-## Static Methods
+## Methods
 
 ### _getText
 
@@ -85,4 +85,6 @@ listed for the dojo.__XhrArgs type, the following property is allowed:
 Create an object representing a de-serialized query section of a
 URL. Query keys with multiple values are returned in an array.
 
+
+# Constructor
 

@@ -1,4 +1,4 @@
-# dojo/store/util/QueryResults
+# Module: dojo/store/util/QueryResults
 
 ## Summary
 
@@ -13,3 +13,5 @@ promises; this wrapper makes sure that *all* results can be treated
 the same.
 
 Additional methods include `forEach`, `filter` and `map`.
+# Constructor
+

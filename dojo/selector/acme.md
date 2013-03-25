@@ -1,4 +1,4 @@
-# dojo/selector/acme
+# Module: dojo/selector/acme
 
 ## Summary
 
@@ -87,8 +87,10 @@ to a node or NodeList, you can quickly construct a new NodeList
 from the original by calling `dojo.query(node)` or
 `dojo.query(list)`.
 
-## Static Methods
+## Methods
 
 ### filter
 function for filtering a NodeList based on a selector, optimized for simple selectors
+
+# Constructor
 

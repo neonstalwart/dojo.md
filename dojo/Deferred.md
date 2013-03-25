@@ -1,4 +1,4 @@
-# dojo/Deferred
+# Module: dojo/Deferred
 
 ## Summary
 
@@ -10,12 +10,12 @@ Creates a new deferred, as an abstraction over (primarily)
 asynchronous operations. The deferred is the private interface
 that should not be returned to calling code. That's what the
 `promise` is for. See `dojo/promise/Promise`.
-## Static Properties
+## Properties
 
 ### promise
 
 
-## Static Methods
+## Methods
 
 ### cancel
 Inform the deferred it may cancel its asynchronous operation.
@@ -44,7 +44,9 @@ Resolve the deferred.
 ### then
 Add new callbacks to the deferred.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### toString
 

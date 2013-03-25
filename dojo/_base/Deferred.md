@@ -1,4 +1,4 @@
-# dojo/_base/Deferred
+# Module: dojo/_base/Deferred
 
 ## Summary
 
@@ -54,12 +54,12 @@ aborting of an XMLHttpRequest, etc. Note that cancel will fire the
 deferred with a CancelledError (unless your canceller returns
 another kind of error), so the errbacks should be prepared to
 handle that error for cancellable Deferreds.
-## Static Properties
+## Properties
 
 ### promise
 
 
-## Static Methods
+## Methods
 
 ### addCallbacks
 Adds callback and error callback for this deferred instance.
@@ -113,12 +113,14 @@ throws an error, the returned promise will be moved to failed state.
 ### when
 Transparently applies callbacks to values and/or promises.
 
-## Static Properties
+# Constructor
+
+## Properties
 
 ### fired
 
 
-## Static Methods
+## Methods
 
 ### addBoth
 Add handler as both successful callback and error callback for this deferred instance.

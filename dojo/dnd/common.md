@@ -1,9 +1,9 @@
-# dojo/dnd/common
+# Module: dojo/dnd/common
 
 ## Summary
 
 TODOC
-## Static Properties
+## Properties
 
 ### _defaultCreatorNodes
 
@@ -17,7 +17,7 @@ TODOC
 ### _uniqueId
 
 
-## Static Methods
+## Methods
 
 ### _createNode
 returns a function, which creates an element of given tag
@@ -44,7 +44,9 @@ returns true if user clicked on a form element
 ### manager
 Returns the current DnD manager.  Creates one if it is not created yet.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

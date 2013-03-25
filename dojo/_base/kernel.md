@@ -1,9 +1,9 @@
-# dojo/_base/kernel
+# Module: dojo/_base/kernel
 
 ## Summary
 
 This module is the foundational module of the dojo boot sequence; it defines the dojo object.
-## Static Properties
+## Properties
 
 ### Stateful
 
@@ -255,7 +255,7 @@ Version number of the Dojo Toolkit
 ### window
 TODOC
 
-## Static Methods
+## Methods
 
 ### AdapterRegistry
 A registry to make contextual calling/searching easier.
@@ -896,7 +896,9 @@ listed for the dojo.__XhrArgs type, the following property is allowed:
 Sends an HTTP PUT request to the server. In addition to the properties
 listed for the dojo.__XhrArgs type, the following property is allowed:
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

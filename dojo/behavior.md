@@ -1,2 +1,4 @@
-# dojo/behavior
+# Module: dojo/behavior
+
+# Constructor
 

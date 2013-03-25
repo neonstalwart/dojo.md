@@ -1,10 +1,10 @@
-# dojo/aspect
+# Module: dojo/aspect
 
 ## Summary
 
 provides aspect oriented programming functionality, allowing for
 one to add before, around, or after advice on existing methods.
-## Static Methods
+## Methods
 
 ### after
 The "after" export of the aspect module is a function that can be used to attach
@@ -34,7 +34,9 @@ If the before method doesn't return anything (returns undefined) the original ar
 will be preserved.
 If there are multiple "before" advisors, they are executed in the reverse order they were registered.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

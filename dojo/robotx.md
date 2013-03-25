@@ -1,6 +1,6 @@
-# dojo/robotx
+# Module: dojo/robotx
 
-## Static Properties
+## Properties
 
 ### _appletDead
 
@@ -37,7 +37,7 @@ which in turn calls _run().
 ### window
 
 
-## Static Methods
+## Methods
 
 ### _assertRobot
 
@@ -145,7 +145,9 @@ Types a string of characters in order, or types a dojo.keys.* constant.
 Notifies DOH that the doh.robot is about to make a page change in the application it is driving,
 returning a doh.Deferred object the user should return in their runTest function as part of a DOH test.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

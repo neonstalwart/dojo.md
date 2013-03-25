@@ -1,9 +1,9 @@
-# dojo/regexp
+# Module: dojo/regexp
 
 ## Summary
 
 Regular expressions and Builder resources
-## Static Methods
+## Methods
 
 ### buildGroupRE
 Builds a regular expression that groups subexpressions
@@ -14,7 +14,9 @@ Adds escape sequences for special characters in regular expressions
 ### group
 adds group match to expression
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

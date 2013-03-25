@@ -1,6 +1,8 @@
-# dojo/store/Cache
+# Module: dojo/store/Cache
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
@@ -8,7 +10,7 @@ The Cache store wrapper takes a master store and a caching store,
 caches data from the master into the caching store for faster
 lookup. Normally one would use a memory store for the caching
 store and a server store like JsonRest for the master store.
-## Static Properties
+## Properties
 
 ### idProperty
 If the store has a single primary key, this indicates the property to use as the
@@ -30,7 +32,7 @@ used to determine if an object matches the query. For example:
     query.matches({id:"some-object", foo:"bar"}) -> true
     query.matches({id:"some-object", foo:"something else"}) -> false
 
-## Static Methods
+## Methods
 
 ### add
 Add the given object to the store.

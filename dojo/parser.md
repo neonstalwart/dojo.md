@@ -1,9 +1,9 @@
-# dojo/parser
+# Module: dojo/parser
 
 ## Summary
 
 The Dom/Widget parsing package
-## Static Methods
+## Methods
 
 ### _clearCache
 Clear cached data.   Used mainly for benchmarking.
@@ -43,7 +43,9 @@ Scan the DOM for class instances, and instantiate them.
 Scan a DOM tree and return an array of objects representing the DOMNodes
 that need to be turned into widgets.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

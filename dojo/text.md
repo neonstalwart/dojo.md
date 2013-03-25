@@ -1,4 +1,4 @@
-# dojo/text
+# Module: dojo/text
 
 ## Summary
 
@@ -11,12 +11,12 @@ Also, this allows foreign AMD loaders to be used without their plugins.
 
 CAUTION: this module is designed to optionally function synchronously to support the dojo v1.x synchronous
 loader. This feature is outside the scope of the CommonJS plugins specification.
-## Static Properties
+## Properties
 
 ### dynamic
 
 
-## Static Methods
+## Methods
 
 ### load
 
@@ -24,7 +24,9 @@ loader. This feature is outside the scope of the CommonJS plugins specification.
 ### normalize
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

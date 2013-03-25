@@ -1,11 +1,13 @@
-# dojo/dnd/Avatar
+# Module: dojo/dnd/Avatar
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 Object that represents transferred DnD items visually
-## Static Properties
+## Properties
 
 ### declaredClass
 
@@ -13,7 +15,7 @@ Object that represents transferred DnD items visually
 ### manager
 a DnD manager object
 
-## Static Methods
+## Methods
 
 ### _generateText
 generates a proper text to reflect copying or moving of items

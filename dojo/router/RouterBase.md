@@ -1,13 +1,15 @@
-# dojo/router/RouterBase
+# Module: dojo/router/RouterBase
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 A module that allows one to easily map hash-based structures into
 callbacks. The router module is a singleton, offering one central
 point for all registrations of this type.
-## Static Properties
+## Properties
 
 ### _currentPath
 
@@ -33,7 +35,7 @@ point for all registrations of this type.
 ### idReplacement
 
 
-## Static Methods
+## Methods
 
 ### _convertRouteToRegExp
 

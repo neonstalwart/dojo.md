@@ -1,9 +1,9 @@
-# dojo/_base/unload
+# Module: dojo/_base/unload
 
 ## Summary
 
 This module contains the document and window unload detection API.
-## Static Methods
+## Methods
 
 ### addOnUnload
 registers a function to be triggered when the page unloads.
@@ -12,7 +12,9 @@ registers a function to be triggered when the page unloads.
 registers a function to be triggered when window.onunload
 fires.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

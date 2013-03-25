@@ -1,9 +1,9 @@
-# dojo/fx
+# Module: dojo/fx
 
 ## Summary
 
 Effects library on top of Base animations
-## Static Properties
+## Properties
 
 ### Toggler
 
@@ -12,7 +12,7 @@ Effects library on top of Base animations
 Collection of easing functions to use beyond the default
 `dojo._defaultEasing` function.
 
-## Static Methods
+## Methods
 
 ### chain
 Chain a list of `dojo.Animation`s to run in sequence
@@ -34,7 +34,9 @@ Expand a node to it's natural height.
 Shrink a node to nothing and hide it.
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

@@ -1,6 +1,8 @@
-# dojo/data/api/Read
+# Module: dojo/data/api/Read
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
@@ -8,12 +10,12 @@ This is an abstract API that data provider implementations conform to.
 This file defines methods signatures and intentionally leaves all the
 methods unimplemented.  For more information on the dojo.data APIs,
 please visit: http://www.dojotoolkit.org/node/98
-## Static Properties
+## Properties
 
 ### declaredClass
 
 
-## Static Methods
+## Methods
 
 ### close
 The close() method is intended for instructing the store to 'close' out

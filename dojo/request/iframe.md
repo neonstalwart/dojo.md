@@ -1,9 +1,9 @@
-# dojo/request/iframe
+# Module: dojo/request/iframe
 
 ## Summary
 
 Sends a request using an iframe element with the given URL and options.
-## Static Properties
+## Properties
 
 ### __BaseOptions
 
@@ -23,7 +23,7 @@ Sends a request using an iframe element with the given URL and options.
 ### _iframeName
 
 
-## Static Methods
+## Methods
 
 ### _fireNextRequest
 Internal method used to fire the next request in the queue.
@@ -45,4 +45,6 @@ Send an HTTP POST request using an iframe element with the given URL and options
 
 ### setSrc
 
+
+# Constructor
 

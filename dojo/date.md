@@ -1,9 +1,9 @@
-# dojo/date
+# Module: dojo/date
 
 ## Summary
 
 Date manipulation utilities
-## Static Methods
+## Methods
 
 ### add
 Add to a Date in intervals of different size, from milliseconds to years
@@ -25,7 +25,9 @@ Get the user's time zone as provided by the browser
 ### isLeapYear
 Determines if the year of the dateObject is a leap year
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

@@ -1,4 +1,4 @@
-# dojo/AdapterRegistry
+# Module: dojo/AdapterRegistry
 
 ## Summary
 
@@ -9,7 +9,7 @@ Objects of this class keep list of arrays in the form [name, check,
 wrap, directReturn] that are used to determine what the contextual
 result of a set of checked arguments is. All check/wrap functions
 in this registry should be of the same arity.
-## Static Properties
+## Properties
 
 ### pairs
 
@@ -17,7 +17,9 @@ in this registry should be of the same arity.
 ### returnWrappers
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### match
 Find an adapter for the given arguments. If no suitable adapter

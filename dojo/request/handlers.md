@@ -1,7 +1,9 @@
-# dojo/request/handlers
+# Module: dojo/request/handlers
 
-## Static Methods
+## Methods
 
 ### register
 
+
+# Constructor
 

@@ -1,6 +1,8 @@
-# dojo/data/api/Item
+# Module: dojo/data/api/Item
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 

@@ -1,9 +1,9 @@
-# dojo/request/xhr
+# Module: dojo/request/xhr
 
 ## Summary
 
 Sends a request using XMLHttpRequest with the given URL and options.
-## Static Properties
+## Properties
 
 ### __BaseOptions
 
@@ -14,7 +14,7 @@ Sends a request using XMLHttpRequest with the given URL and options.
 ### __Options
 
 
-## Static Methods
+## Methods
 
 ### _create
 does the work of portably generating a new XMLHTTPRequest object.
@@ -30,4 +30,6 @@ Send an HTTP POST request using XMLHttpRequest with the given URL and options.
 
 ### put
 Send an HTTP PUT request using XMLHttpRequest with the given URL and options.
+
+# Constructor
 

@@ -1,4 +1,4 @@
-# dojo/promise/tracer
+# Module: dojo/promise/tracer
 
 ## Summary
 
@@ -8,12 +8,14 @@ Trace promise fulfillment.
 Trace promise fulfillment. Calling `.trace()` or `.traceError()` on a
 promise enables tracing. Will emit `resolved`, `rejected` or `progress`
 events.
-## Static Methods
+## Methods
 
 ### on
 Subscribe to traces.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

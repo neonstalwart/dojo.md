@@ -1,9 +1,9 @@
-# dojo/topic
+# Module: dojo/topic
 
 ## Summary
 
 Pubsub hub.
-## Static Methods
+## Methods
 
 ### publish
 Publishes a message to a topic on the pub/sub hub. All arguments after
@@ -13,7 +13,9 @@ can be provided (not just event).
 ### subscribe
 Subscribes to a topic on the pub/sub hub
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

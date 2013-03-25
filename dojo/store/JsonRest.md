@@ -1,12 +1,14 @@
-# dojo/store/JsonRest
+# Module: dojo/store/JsonRest
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 This is a basic store for RESTful communicating with a server through JSON
 formatted data. It implements dojo/store/api/Store.
-## Static Properties
+## Properties
 
 ### accepts
 Defines the Accept header to use on HTTP requests
@@ -49,7 +51,7 @@ The target base URL to use for all requests to the server. This string will be
 prepended to the id to generate the URL (relative or absolute) for requests
 sent to the server
 
-## Static Methods
+## Methods
 
 ### add
 Adds an object. This will trigger a PUT request to the server

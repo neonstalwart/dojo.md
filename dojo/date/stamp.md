@@ -1,14 +1,14 @@
-# dojo/date/stamp
+# Module: dojo/date/stamp
 
 ## Summary
 
 TODOC
-## Static Properties
+## Properties
 
 ### _isoRegExp
 
 
-## Static Methods
+## Methods
 
 ### fromISOString
 Returns a Date object given a string formatted according to a subset of the ISO-8601 standard.
@@ -18,7 +18,9 @@ Returns a Date object given a string formatted according to a subset of the ISO-
 Format a Date object as a string according a subset of the ISO-8601 standard
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

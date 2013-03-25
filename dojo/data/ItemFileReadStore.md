@@ -1,6 +1,8 @@
-# dojo/data/ItemFileReadStore
+# Module: dojo/data/ItemFileReadStore
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
@@ -15,7 +17,7 @@ data from JSON files that have contents in this format --
 
 Note that it can also contain an 'identifier' property that specified which attribute on the items
 in the array of items that acts as the unique identifier for that item.
-## Static Properties
+## Properties
 
 ### _ccUrl
 
@@ -53,7 +55,7 @@ Parameter to allow specifying if preventCache should be passed to the xhrGet cal
 Note this does not mean the store calls the server on each fetch, only that the data load has preventCache set as an option.
 Added for tracker: #6072
 
-## Static Methods
+## Methods
 
 ### _addReferenceToMap
 Method to add an reference map entry for an item and attribute.

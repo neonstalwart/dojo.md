@@ -1,9 +1,9 @@
-# dojo/window
+# Module: dojo/window
 
 ## Summary
 
 TODOC
-## Static Methods
+## Methods
 
 ### get
 Get window object associated with document doc.
@@ -14,7 +14,9 @@ Returns the dimensions and scroll position of the viewable area of a browser win
 ### scrollIntoView
 Scroll the passed node into view using minimal movement, if it is not already.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

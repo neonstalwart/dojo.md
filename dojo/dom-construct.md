@@ -1,6 +1,6 @@
-# dojo/dom-construct
+# Module: dojo/dom-construct
 
-## Static Methods
+## Methods
 
 ### create
 Create an element, allowing for optional attribute decoration
@@ -21,7 +21,9 @@ Returns the first argument resolved to a DOM node.
 ### toDom
 instantiates an HTML fragment returning the corresponding DOM.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

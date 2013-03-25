@@ -1,9 +1,9 @@
-# dojo/string
+# Module: dojo/string
 
 ## Summary
 
 String utilities for Dojo
-## Static Methods
+## Methods
 
 ### pad
 Pad a string to guarantee that it is at least `size` length by
@@ -20,7 +20,9 @@ exception if any parameter is unmatched.
 ### trim
 Trims whitespace from both sides of the string
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

@@ -1,11 +1,13 @@
-# dojo/store/Memory
+# Module: dojo/store/Memory
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 This is a basic in-memory object store. It implements dojo/store/api/Store.
-## Static Properties
+## Properties
 
 ### data
 The array of all the objects in the memory store
@@ -20,7 +22,7 @@ property should be unique.
 ### index
 An index of data indices into the data array by id
 
-## Static Methods
+## Methods
 
 ### add
 Creates an object, throws an error if the object already exists

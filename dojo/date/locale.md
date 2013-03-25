@@ -1,14 +1,14 @@
-# dojo/date/locale
+# Module: dojo/date/locale
 
 ## Summary
 
 This modules defines dojo/date/locale, localization methods for Date.
-## Static Properties
+## Properties
 
 ### __FormatOptions
 
 
-## Static Methods
+## Methods
 
 ### _getDayOfYear
 gets the day of the year as represented by dateObject
@@ -52,7 +52,9 @@ using locale-specific settings.
 ### regexp
 Builds the regular needed to parse a localized date
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

@@ -1,4 +1,4 @@
-# dojo/NodeList
+# Module: dojo/NodeList
 
 ## Summary
 
@@ -14,7 +14,7 @@ manipulation, and event handling. Instead of needing to dig up
 functions in the dojo.* namespace, NodeLists generally make the
 full power of Dojo available for DOM manipulation tasks in a
 simple, chainable way.
-## Static Properties
+## Properties
 
 ### _nodeDataCache
 
@@ -22,7 +22,7 @@ simple, chainable way.
 ### events
 
 
-## Static Methods
+## Methods
 
 ### _adaptAsFilter
 adapts a single node function to be used in the filter-type actions
@@ -46,7 +46,9 @@ super expensive: GC all data in the data for nodes that no longer exist in the d
 ### _wrap
 decorate an array to make it look like a `dojo/NodeList`.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### _NodeListCtor
 Array-like object which adds syntactic

@@ -1,6 +1,6 @@
-# dojo/dom-attr
+# Module: dojo/dom-attr
 
-## Static Methods
+## Methods
 
 ### get
 Gets an attribute on an HTML element.
@@ -18,7 +18,9 @@ Removes an attribute from an HTML element.
 ### set
 Sets an attribute on an HTML element.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

@@ -1,4 +1,4 @@
-# dojo/uacss
+# Module: dojo/uacss
 
 ## Summary
 
@@ -13,7 +13,9 @@ In addition, browser, browser version, and box model are
 combined with an RTL flag when browser text is RTL. ex: dj_ie-rtl.
 
 Returns the has() method.
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

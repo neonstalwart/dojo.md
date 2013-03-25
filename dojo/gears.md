@@ -1,20 +1,22 @@
-# dojo/gears
+# Module: dojo/gears
 
 ## Summary
 
 TODOC
-## Static Properties
+## Properties
 
 ### available
 True if client is using Google Gears
 
-## Static Methods
+## Methods
 
 ### _gearsObject
 factory method to get a Google Gears plugin instance to
 expose in the browser runtime environment, if present
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

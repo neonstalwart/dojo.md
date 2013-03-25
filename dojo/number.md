@@ -1,9 +1,9 @@
-# dojo/number
+# Module: dojo/number
 
 ## Summary
 
 localized formatting and parsing routines for Number
-## Static Properties
+## Properties
 
 ### __FormatAbsoluteOptions
 
@@ -26,7 +26,7 @@ localized formatting and parsing routines for Number
 ### _numberPatternRE
 
 
-## Static Methods
+## Methods
 
 ### _applyPattern
 Apply pattern to format value as a string using options. Gives no
@@ -59,7 +59,9 @@ Builds the regular needed to parse a number
 ### round
 Rounds to the nearest value with the given number of decimal places, away from zero
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

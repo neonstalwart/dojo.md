@@ -1,15 +1,15 @@
-# dojo/_base/lang
+# Module: dojo/_base/lang
 
 ## Summary
 
 This module defines Javascript language extensions.
-## Static Properties
+## Properties
 
 ### _extraNames
 Lists property names that must be explicitly processed during for-in iteration
 in environments that have has("bug-for-in-skips-shadowed") true.
 
-## Static Methods
+## Methods
 
 ### _hitchArgs
 
@@ -89,7 +89,9 @@ Set a property from a dot-separated string, such as "A.B.C"
 ### trim
 Trims whitespace from both sides of the string
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

@@ -1,4 +1,4 @@
-# dojo/has
+# Module: dojo/has
 
 ## Summary
 
@@ -8,12 +8,12 @@ Return the current value of the named feature.
 
 Returns the value of the feature named by name. The feature must have been
 previously added to the cache by has.add.
-## Static Properties
+## Properties
 
 ### cache
 
 
-## Static Methods
+## Methods
 
 ### add
 Register a new feature test for some named feature.
@@ -27,4 +27,6 @@ Conditional loading of AMD modules based on a has feature test value.
 ### normalize
 Resolves id into a module id based on possibly-nested tenary expression that branches on has feature test value(s).
 
+
+# Constructor
 

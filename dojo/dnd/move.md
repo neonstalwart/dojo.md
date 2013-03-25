@@ -1,9 +1,9 @@
-# dojo/dnd/move
+# Module: dojo/dnd/move
 
 ## Summary
 
 TODOC
-## Static Properties
+## Properties
 
 ### boxConstrainedMoveable
 
@@ -14,7 +14,9 @@ TODOC
 ### parentConstrainedMoveable
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

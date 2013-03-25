@@ -1,4 +1,4 @@
-# dojo/on
+# Module: dojo/on
 
 ## Summary
 
@@ -33,7 +33,7 @@ which would trigger fooHandler. Note that for a simple object this is equivalent
     obj.onfoo({key:"value"});
 
 If you use on.emit on a DOM node, it will use native event dispatching when possible.
-## Static Methods
+## Methods
 
 ### _fixEvent
 normalizes properties on the event object including event
@@ -65,4 +65,6 @@ the provided event type (can be extension event) that
 only calls the listener when the CSS selector matches the target of the event.
 
 The application must require() an appropriate level of dojo/query to handle the selector.
+
+# Constructor
 

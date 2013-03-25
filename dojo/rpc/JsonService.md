@@ -1,11 +1,13 @@
-# dojo/rpc/JsonService
+# Module: dojo/rpc/JsonService
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
 TODOC
-## Static Properties
+## Properties
 
 ### bustCache
 
@@ -25,7 +27,7 @@ TODOC
 ### strictArgChecks
 
 
-## Static Methods
+## Methods
 
 ### bind
 JSON-RPC bind method. Takes remote method, parameters,

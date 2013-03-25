@@ -1,14 +1,14 @@
-# dojo/dom-geometry
+# Module: dojo/dom-geometry
 
 ## Summary
 
 This module defines the core dojo DOM geometry API.
-## Static Properties
+## Properties
 
 ### boxModel
 
 
-## Static Methods
+## Methods
 
 ### docScroll
 Returns an object with {node, x, y} with corresponding offsets.
@@ -83,7 +83,9 @@ sets the size of the node's margin box and placement
 passthrough to setBox that handles box-model vagaries for
 you.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

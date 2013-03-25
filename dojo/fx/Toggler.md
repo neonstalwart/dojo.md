@@ -1,6 +1,8 @@
-# dojo/fx/Toggler
+# Module: dojo/fx/Toggler
 
 *Constructor*
+
+# Constructor
 
 ## Summary
 
@@ -12,7 +14,7 @@ set of arguments about what type of animation to use in each
 direction, duration, etc. All available members are mixed into
 these animations from the constructor (for example, `node`,
 `showDuration`, `hideDuration`).
-## Static Properties
+## Properties
 
 ### _hideAnim
 
@@ -44,7 +46,7 @@ the node to target for the showing and hiding animations
 ### showDuration
 Time in milliseconds to run the show Animation
 
-## Static Methods
+## Methods
 
 ### hide
 Toggle the node to hidden

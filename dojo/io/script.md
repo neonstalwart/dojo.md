@@ -1,9 +1,9 @@
-# dojo/io/script
+# Module: dojo/io/script
 
 ## Summary
 
 TODOC
-## Static Properties
+## Properties
 
 ### _counter
 
@@ -11,7 +11,7 @@ TODOC
 ### _deadScripts
 
 
-## Static Methods
+## Methods
 
 ### _addDeadScript
 sets up an entry in the deadScripts array.
@@ -58,7 +58,9 @@ sends a get request using a dynamically created script tag.
 removes the script element with the given id, from the given frameDocument.
 If no frameDocument is passed, the current document is used.
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

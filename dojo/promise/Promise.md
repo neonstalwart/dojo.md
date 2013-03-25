@@ -1,4 +1,4 @@
-# dojo/promise/Promise
+# Module: dojo/promise/Promise
 
 ## Summary
 
@@ -7,7 +7,9 @@ The public interface to a deferred.
 
 The public interface to a deferred. All promises in Dojo are
 instances of this class.
-## Static Methods
+# Constructor
+
+## Methods
 
 ### always
 Add a callback to be invoked when the promise is resolved

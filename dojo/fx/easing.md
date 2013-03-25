@@ -1,4 +1,4 @@
-# dojo/fx/easing
+# Module: dojo/fx/easing
 
 ## Summary
 
@@ -20,7 +20,7 @@ beginning and end.
 
 One does not call the easing function directly, it must be passed to
 the `easing` property of an animation.
-## Static Methods
+## Methods
 
 ### backIn
 An easing function that starts away from the target,
@@ -121,7 +121,9 @@ A linear easing function
 ### sineOut
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

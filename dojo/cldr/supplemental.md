@@ -1,9 +1,9 @@
-# dojo/cldr/supplemental
+# Module: dojo/cldr/supplemental
 
 ## Summary
 
 TODOC
-## Static Methods
+## Methods
 
 ### _region
 
@@ -14,7 +14,9 @@ Returns a zero-based index for first day of the week
 ### getWeekend
 Returns a hash containing the start and end days of the weekend
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### hasOwnProperty
 

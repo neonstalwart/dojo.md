@@ -1,6 +1,6 @@
-# dojo/_base/url
+# Module: dojo/_base/url
 
-## Static Properties
+## Properties
 
 ### authority
 
@@ -32,7 +32,9 @@
 ### user
 
 
-## Static Methods
+# Constructor
+
+## Methods
 
 ### toString
 
